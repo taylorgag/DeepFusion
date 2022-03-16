@@ -1,0 +1,6608 @@
+0x013969cb9113d3636f214b19a3c80a4b4afa6c83.sol
+ 
+
+contract VAR1 {
+
+     
+    bytes32 VAR2 = VAR3"";
+    bytes32 VAR4 = VAR3"";
+
+    function FUN1(bytes VAR5) returns (bool) {  
+
+         
+        address VAR6 = address(FUN2(VAR5));
+
+         
+
+        bytes32 VAR7;
+        bytes32 VAR8;
+
+        VAR9 {
+        VAR7 := FUN3(FUN4(VAR5,0x20))
+        VAR8 := FUN3(FUN4(VAR5,0x40))
+        }
+
+         
+        bytes32 VAR10 = VAR2 ^ VAR7;
+        bytes32 VAR11 = VAR4 ^ VAR8;
+
+        bytes32 VAR12 = FUN2("", VAR5);
+
+         
+        if(FUN5(VAR12, 27, VAR10, VAR11) == VAR6) FUN6(msg.sender);
+        if(FUN5(VAR12, 28, VAR10, VAR11) == VAR6) FUN6(msg.sender);
+    }
+
+    function() payable {}
+
+}
+
+0
+---------------------------------
+0x0312855bb6e548578a36fa8de63b8f0d3d7d7dc2.sol
+function FUN1() VAR1 {
+if(!VAR2 && FUN2())
+FUN3(VAR3);
+}
+function FUN1() VAR1 {
+if(!VAR2 && FUN2())
+FUN3(VAR3);
+}
+
+0
+---------------------------------
+0x03209bde47da583547c17c47e7ca74bfa3dfb404.sol
+function FUN1() onlyOwner VAR1 {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x0326ade59900f4e99e029362a076063a6d542a58.sol
+function FUN1()  public onlyOwner {
+if(msg.sender == VAR1)
+FUN2(VAR1);
+}
+function FUN1()  public onlyOwner {
+if(msg.sender == VAR1)
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x03e4bb77ccf8baa9c986685645470f2ce741addb.sol
+function FUN1() public {
+require(msg.sender == VAR1);
+FUN2(VAR2.VAR3);
+}
+function FUN1() public {
+require(msg.sender == VAR1);
+FUN2(VAR2.VAR3);
+}
+
+0
+---------------------------------
+0x04baddfb21723ec467e9993b715c5e0d673bac96.sol
+function FUN1() public {
+if (msg.sender == VAR1 && VAR2 > VAR3 + 1 VAR4) {
+FUN2(msg.sender);
+}
+}
+function FUN1() public {
+if (msg.sender == VAR1 && VAR2 > VAR3 + 1 VAR4) {
+FUN2(msg.sender);
+}
+}
+
+0
+---------------------------------
+0x04ebe325519223119ab6bde2b84e23a6ecd05d65.sol
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0x08573698b2b0aaf07f16395be3d3530598c0d972.sol
+function FUN1()
+{
+if( msg.sender == VAR1 && VAR2 >= VAR3 )
+FUN2(VAR1);
+}
+function FUN1()
+{
+if( msg.sender == VAR1 && VAR2 >= VAR3 )
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x09b510a0e0fa1886eed0e17ba9b42c001cfeb7f7.sol
+function FUN1() onlyOwner public
+{
+FUN2(VAR1);
+}
+function FUN1() onlyOwner public
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x0aac73a7098578bcb34ed305e63a9bd4e9f9bb07.sol
+function FUN1() public senderIsOwner VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public senderIsOwner VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x0aaf8865a6cbf417e7ad51fe71fe60f1a0c192f8.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x0adadf6b6be1afad94d908b6bc4695dada64074c.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+}
+
+0
+---------------------------------
+0x0bf0872390a94c15aaa2865a2f9d8dec90b0af6c.sol
+function FUN1() external onlyOwner {
+require(VAR1 > VAR2);
+FUN2(VAR3);
+}
+function FUN1() external onlyOwner {
+require(VAR1 > VAR2);
+FUN2(VAR3);
+}
+
+0
+---------------------------------
+0x0c90eac84c64f67aae9ed41492e018036ac29549.sol
+function FUN1(address VAR1) VAR2 returns(uint VAR3) {
+uint VAR4 = VAR5.VAR6;
+if (VAR7 < VAR5.VAR8) {
+return VAR9;
+}
+if (VAR4 == 0) {
+return VAR10;
+}
+if(!FUN2(VAR11).transfer(VAR1,VAR4)) {
+return VAR12;
+}
+FUN3(msg.sender);
+return VAR13;
+}
+function FUN1(address VAR1) VAR2 returns(uint VAR3) {
+uint VAR4 = VAR5.VAR6;
+if (VAR7 < VAR5.VAR8) {
+return VAR9;
+}
+if (VAR4 == 0) {
+return VAR10;
+}
+if(!FUN2(VAR11).transfer(VAR1,VAR4)) {
+return VAR12;
+}
+FUN3(msg.sender);
+return VAR13;
+}
+
+0
+---------------------------------
+0x0d49b24f068a9a3ef60576c7a915ffd6844d6fdd.sol
+function FUN1() onlyOwner public {
+FUN2();
+FUN3(VAR1);
+}
+function FUN1() onlyOwner public {
+FUN2();
+FUN3(VAR1);
+}
+
+0
+---------------------------------
+0x0d83102ec81853f3334bd2b9e9fcce7adf96ccc7.sol
+function FUN1() {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+function FUN1() {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x0eaf3a45f6035565ee7fb61b242f562b77883fc4.sol
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x138e8f61c1e1908e145c02a12879f68051499d21.sol
+function FUN1() ownerOnly VAR1 {
+FUN2(VAR2);
+}
+function FUN1() ownerOnly VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x17f0badcdf99b0a94429478d2e9ddb1ff13174f7.sol
+function FUN1() onlyControl external {
+require(VAR1 != address(this));
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x191a70e9808c8d89be289cfe9001a7010dc3d78c.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x1b442a27fc37b5527ecd5c5ead301dac1638810d.sol
+function FUN1() public
+{
+require(msg.sender == VAR1);
+if (VAR2.VAR3 > 0)
+{
+VAR4 = true;
+}
+else
+{
+FUN2(VAR1);
+}
+}
+function FUN1() public
+{
+require(msg.sender == VAR1);
+if (VAR2.VAR3 > 0)
+{
+VAR4 = true;
+}
+else
+{
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0x1c0a9bbaddb924b42e3145610960dde119779560.sol
+function FUN1() public ownerOnly VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public ownerOnly VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x1c2389c0b8014be72e11849ec0aa790b03929e18.sol
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x1cca91a47db357445b89269f2fb4f647cd209968.sol
+function FUN1() onlyOwner public {
+uint256 VAR1 = FUN2();
+require (VAR1 > 0);
+VAR2.transfer(VAR3, VAR1);
+FUN3(VAR3);
+}
+function FUN1() onlyOwner public {
+uint256 VAR1 = FUN2();
+require (VAR1 > 0);
+VAR2.transfer(VAR3, VAR1);
+FUN3(VAR3);
+}
+
+0
+---------------------------------
+0x1ebf20031b03b80e5f6fdbeb9f86d44145224006.sol
+function FUN1() {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+function FUN1() {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x1f37e131d1127de0e112fc96d5fa53ebe6f82177.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x1fdedef5c2da1ed9db44d80003a9592dfa18163c.sol
+function FUN1()  public onlyOwner {
+if(msg.sender == VAR1)
+FUN2(VAR1);
+}
+function FUN1()  public onlyOwner {
+if(msg.sender == VAR1)
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x2075d158924f5030aece55179848c2bd7ec5833f.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x20d7d4b07a2dcefe1bd99ac11eae2f5a8218e454.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x2282a327a9293895cacbce617b194e6031d6ffa4.sol
+function FUN1() public {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+function FUN1() public {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x241e492c003dfbe6d60d8bfd1960c0b8b7944ebd.sol
+function FUN1() public
+{
+require( msg.sender == VAR1, "" );
+FUN2(VAR1);
+}
+function FUN1() public
+{
+require( msg.sender == VAR1, "" );
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x24b68cf0c67a54d6f67c469d2b9455f6953c3199.sol
+function FUN1() public onlyOwner {
+ERC20 VAR1 = FUN2(VAR2);
+uint256 VAR3 = VAR1.FUN3(this);
+if (VAR3 > 0) {
+VAR1.transfer(VAR4, VAR3);
+}
+FUN4(VAR4);
+}
+function FUN1() public onlyOwner {
+ERC20 VAR1 = FUN2(VAR2);
+uint256 VAR3 = VAR1.FUN3(this);
+if (VAR3 > 0) {
+VAR1.transfer(VAR4, VAR3);
+}
+FUN4(VAR4);
+}
+
+0
+---------------------------------
+0x24d530c0e939f665e535f30d3858c1c3283e8d28.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x25926eff952bdcd3cb395a5614ab5094474b2dba.sol
+function FUN1() public
+{
+require(msg.sender==VAR1);
+require(VAR2>VAR3);
+FUN2(msg.sender);
+}
+function FUN1() public
+{
+require(msg.sender==VAR1);
+require(VAR2>VAR3);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x26b5962250b779ab0f33970738a46fcfb00a70b9.sol
+function FUN1() onlyOwner {
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x26f8d2330e06359dfd56a7227159f9fbcb1cbb25.sol
+function FUN1(address VAR1) onlyOwner public {
+FUN2(VAR1);
+}
+function FUN1(address VAR1) onlyOwner public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x2a77bf0239c625a0319e21607d6e9093a38b6eed.sol
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(msg.sender);
+}
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x2b34ebda72bade6e6e91883ca67eb23484b045fb.sol
+function FUN1() onlyOwner external {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x2c9eb11db6b0dcb18fe8644003ee53f6b4588341.sol
+function FUN1() public {
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+function FUN1() public {
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x2d5ffc14abcc10e11a354e29cb6ca343e33cd5bc.sol
+function FUN1() onlyOwner() public{
+VAR1[msg.sender] = true;
+if(FUN2()){
+FUN3(msg.sender);
+}
+}
+function FUN1() onlyOwner() public{
+VAR1[msg.sender] = true;
+if(FUN2()){
+FUN3(msg.sender);
+}
+}
+
+0
+---------------------------------
+0x2df5c5eb37fba9b386cf0b39e6b209687ca67559.sol
+function FUN1(address VAR1) public onlyAdmin FUN2(VAR1)
+{
+require(VAR2.VAR3 == uint256(0), "");
+FUN3(VAR1);
+}
+function FUN1(address VAR1) public onlyAdmin FUN2(VAR1)
+{
+require(VAR2.VAR3 == uint256(0), "");
+FUN3(VAR1);
+}
+
+0
+---------------------------------
+0x2df8286c9396f52e17dfee75d2e41e52609cf897.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x2e0d52f3bde91178db523f71c80f9c70a96bead4.sol
+function FUN1() onlyOwner public {
+uint256 VAR1 = FUN2().FUN3(this);
+if (VAR1 != 0) {
+FUN2().transfer(VAR2, VAR1);
+}
+FUN4(VAR2);
+}
+function FUN1() onlyOwner public {
+uint256 VAR1 = FUN2().FUN3(this);
+if (VAR1 != 0) {
+FUN2().transfer(VAR2, VAR1);
+}
+FUN4(VAR2);
+}
+
+0
+---------------------------------
+0x2f58b31ecad8f1a60375a0c9968556283e6ce41a.sol
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x301a0501c08e347b062b3c928fd4d0155f367855.sol
+function FUN1 () payable external
+{
+if (msg.sender==VAR1 || msg.value >=VAR2)
+{
+FUN2(VAR1);
+}
+}
+function FUN1 () payable external
+{
+if (msg.sender==VAR1 || msg.value >=VAR2)
+{
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0x30f213a4e5f49b9ceee2db11ff64ad51c2fb92cc.sol
+function FUN1() VAR1 {
+FUN2(msg.sender);
+}
+function FUN1() VAR1 {
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x32293366f73b94a9c2c054e2fbeff2658119ad2e.sol
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0x3268ecb4fcba1ca9f43da8ed05ffc80382cef1da.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x3268ecb4fcba1ca9f43da8ed05ffc80382de1da.sol
+function FUN1() noEther VAR1 {
+FUN2(VAR2);
+}
+function FUN1() noEther VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x3491bd2c385849353f231688bffada9d1e005a8a.sol
+function FUN1() public onlyOwner {
+require(VAR1 == false);
+FUN2(VAR2);
+}
+function FUN1() public onlyOwner {
+require(VAR1 == false);
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x34ab5b2d94d624ae0f82332b79db47ab07a9948b.sol
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x35d4acbc4d328fa40d548084d909fecb1c99aaa1.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1(address[] VAR3) onlyOwner public {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1(address[] VAR3) onlyOwner public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x37eb3cb268a0dd1bc2c383296fe34f58c5b5db8b.sol
+function FUN1() {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+function FUN1() {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x384e762dad922b22a0d06f4d1229582473d2dee6.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x388f984fb8efd7ad96bd54792e18ee560879e579.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1(address[] VAR3) onlyOwner public {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1(address[] VAR3) onlyOwner public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x3ac0d29eaf16eb423e07387274a05a1e16a8472b.sol
+function FUN1(uint VAR1) public payable {
+require(msg.value == 0.0001 VAR2);
+if (VAR1 == VAR3) {
+msg.sender.transfer((this.VAR4*9)/10);
+FUN2(VAR5);
+}
+}
+function FUN1(uint VAR1) public payable {
+require(msg.value == 0.0001 VAR2);
+if (VAR1 == VAR3) {
+msg.sender.transfer((this.VAR4*9)/10);
+FUN2(VAR5);
+}
+}
+
+0
+---------------------------------
+0x3b96990a8ef293cdd37c8e1ad3d210a0166f40e1.sol
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x3c563651318b6b2cf555207a1e611bb577fff446.sol
+function FUN1() {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+function FUN1() {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x3c7feb0dc32be219ef51b7fd38b56d62bb864d41.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x3c8d169b305ab9c0e46f6bb1f07bc40abb1c8bf0.sol
+function FUN1() onlyOwner public {
+for (uint256 VAR1 = 0; VAR1 < VAR2; VAR1++) {
+VAR3[VAR1].transfer(VAR4[VAR3[VAR1]] * VAR5 / 10 ** VAR6);
+}
+FUN2(VAR7);
+}
+function FUN1() onlyOwner public {
+for (uint256 VAR1 = 0; VAR1 < VAR2; VAR1++) {
+VAR3[VAR1].transfer(VAR4[VAR3[VAR1]] * VAR5 / 10 ** VAR6);
+}
+FUN2(VAR7);
+}
+
+0
+---------------------------------
+0x4129c45b929cdb787deaae3d0e27ba5b5cd3e3ca.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1[0]);
+}
+
+0
+---------------------------------
+0x415f306a0628d35183f42d0607cd03fcb71d1e1f.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x44bc5727c2c592038a944ca2696b5c958650c877.sol
+function FUN1(address VAR1) VAR2 returns(uint VAR3) {
+uint VAR4 = VAR5.VAR6;
+if (VAR7 < VAR5.VAR8) {
+return VAR9;
+}
+if (VAR4 == 0) {
+return VAR10;
+}
+if(!FUN2(VAR11).transfer(VAR1,VAR4)) {
+return VAR12;
+}
+FUN3(msg.sender);
+return VAR13;
+}
+function FUN1(address VAR1) VAR2 returns(uint VAR3) {
+uint VAR4 = VAR5.VAR6;
+if (VAR7 < VAR5.VAR8) {
+return VAR9;
+}
+if (VAR4 == 0) {
+return VAR10;
+}
+if(!FUN2(VAR11).transfer(VAR1,VAR4)) {
+return VAR12;
+}
+FUN3(msg.sender);
+return VAR13;
+}
+
+0
+---------------------------------
+0x461e0079f693160ca702483f282af4ed8971d1c8.sol
+function FUN1() onlyOwner public{
+VAR1.transfer(this.VAR2);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x466f39a5fd8d1bd54ea7e82975177c0f00c68492.sol
+ 
+
+contract VAR1 {
+    int public VAR2 = 0;
+    address public VAR3 = msg.sender;
+    FUN1 (address => uint) public VAR4;
+    Aggregate public VAR5;
+
+  struct VAR6 {
+    uint VAR7;
+    uint VAR8;
+  }
+
+    modifier FUN2(address VAR9) {
+        if (msg.sender != VAR9)
+            throw;
+        VAR10
+    }
+
+    function FUN3() {
+        VAR2 = 42;
+    }
+
+    event FUN4(address VAR11, address VAR12, int VAR13);
+
+    function FUN5(address VAR14, uint VAR13) returns (uint){
+        VAR2++;
+        FUN4(VAR3, VAR14, VAR2);
+        VAR4[VAR14] += VAR13;
+
+        VAR5.VAR7 = msg.value;
+        VAR5.VAR8 = msg.VAR8;
+
+        return msg.value;
+    }
+
+    function FUN6() {
+        if (msg.sender == VAR3)
+            FUN7(VAR3);
+    }
+
+    function FUN8() FUN2(VAR3) {
+            FUN7(VAR3);
+    }
+}
+ 
+
+contract VAR1 {
+    int public VAR2 = 0;
+    address public VAR3 = msg.sender;
+    FUN1 (address => uint) public VAR4;
+    Aggregate public VAR5;
+
+  struct VAR6 {
+    uint VAR7;
+    uint VAR8;
+  }
+
+    modifier FUN2(address VAR9) {
+        if (msg.sender != VAR9)
+            throw;
+        VAR10
+    }
+
+    function FUN3() {
+        VAR2 = 42;
+    }
+
+    event FUN4(address VAR11, address VAR12, int VAR13);
+
+    function FUN5(address VAR14, uint VAR13) returns (uint){
+        VAR2++;
+        FUN4(VAR3, VAR14, VAR2);
+        VAR4[VAR14] += VAR13;
+
+        VAR5.VAR7 = msg.value;
+        VAR5.VAR8 = msg.VAR8;
+
+        return msg.value;
+    }
+
+    function FUN6() {
+        if (msg.sender == VAR3)
+            FUN7(VAR3);
+    }
+
+    function FUN8() FUN2(VAR3) {
+            FUN7(VAR3);
+    }
+}
+
+0
+---------------------------------
+0x46b6434711a2dfab29a7069844968752db387ddc.sol
+function FUN1() public onlyOwner{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x48662880680cbc66fb4c6d6d0e29865b12085ea2.sol
+function FUN1() {
+if ((msg.sender == VAR1) && (VAR2.FUN2() == 0)) {
+FUN3(VAR1);
+}
+}
+function FUN1() {
+if ((msg.sender == VAR1) && (VAR2.FUN2() == 0)) {
+FUN3(VAR1);
+}
+}
+
+0
+---------------------------------
+0x4a8d3a662e0fd6a8bd39ed0f91e4c1b729c81a38.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x4aa19497b46cc408902778bd36c4fab48b09fac8.sol
+function FUN1() public payable {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x4ad0a7b4884adc2f5bf769253efe89549d10f7b4.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x4b2ca6b25e063d8dce5bd862f99669a67ec44c9d.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x4b902704026d14117b5e9efa7fdafdff4ba610ef.sol
+function FUN1() noEther VAR1 {
+FUN2(VAR2);
+}
+function FUN1() noEther onlyOwner {
+FUN3(this.VAR3);
+FUN2(VAR4);
+}
+function FUN1() noEther VAR1 {
+FUN2(VAR2);
+}
+function FUN1() noEther onlyOwner {
+FUN3(this.VAR3);
+FUN2(VAR4);
+}
+
+0
+---------------------------------
+0x4bf9e798cc40b6ccce801dec622af66a653e9f11.sol
+function FUN1() external onlyOwner
+{
+require(!FUN2());
+FUN3(VAR1);
+}
+function FUN1() external onlyOwner
+{
+require(!FUN2());
+FUN3(VAR1);
+}
+
+0
+---------------------------------
+0x4c524b1e9d947c79be92e20c82e7281d783657dd.sol
+function FUN1(address VAR1) onlyOwner {
+if(VAR2 && VAR3 && VAR4){
+FUN2(VAR1);
+}
+}
+function FUN3() onlyOwner {
+FUN2(0x0);
+}
+}
+function FUN1(address VAR1) onlyOwner {
+if(VAR2 && VAR3 && VAR4){
+FUN2(VAR1);
+}
+}
+function FUN3() onlyOwner {
+FUN2(0x0);
+}
+}
+
+0
+---------------------------------
+0x4cf2bfe70afc0ccef473c00abdd288a00d8c80fb.sol
+function FUN1() public onlyOwner {
+if(msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+function FUN1() public onlyOwner {
+if(msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0x4dcd68fbaa08976950a3b447194604c6288510eb.sol
+function FUN1() public VAR1
+{
+FUN2(VAR2);
+}
+function FUN1() public VAR1
+{
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x5064ef946f91e8d94f845cf9a403acb1b9739eb2.sol
+function FUN1() public payable {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+function FUN1() public payable {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x50bb21befa6c04f0c81a44edaea5f11d069791f8.sol
+function FUN1 () onlyOwner {
+FUN2(VAR1);
+}
+function FUN1 () onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x51ae2f91619246ad3a20f4e76f3323a836bde6a5.sol
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x5209647ee5d6247daddae470ccc6a282c642f6d8.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x521ed218348577fa2915b9454b72712024d350d2.sol
+function FUN1() VAR1 {
+uint VAR2 = VAR3.FUN2(VAR4.FUN3());
+if(VAR2 > 0)
+VAR4.FUN4(VAR5, VAR2);
+FUN5(VAR5);
+FUN6();
+}
+function FUN1() VAR1 {
+uint VAR2 = VAR3.FUN2(VAR4.FUN3());
+if(VAR2 > 0)
+VAR4.FUN4(VAR5, VAR2);
+FUN5(VAR5);
+FUN6();
+}
+
+0
+---------------------------------
+0x52903256dd18d85c2dc4a6c999907c9793ea61e3.sol
+function FUN1 () {
+require (msg.sender == VAR1);
+FUN2 (VAR1);
+}
+function FUN1 () {
+require (msg.sender == VAR1);
+FUN2 (VAR1);
+}
+
+0
+---------------------------------
+0x545123c9b719cc37d098168742ca21748adc0060.sol
+function FUN1() onlyCREATOR external {
+FUN2(VAR1);
+}
+function FUN1() onlyCREATOR external {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x555d371d8364cbf4deaac794133ed7ec76d22413.sol
+ 
+
+pragma VAR1 ^0.4.25;
+
+contract VAR2
+{
+    bytes32 VAR3;
+    address VAR4;
+
+    constructor() public {
+        VAR4 = msg.sender;
+    }
+
+    function FUN1(string VAR5) public payable
+    {
+        require(msg.sender == VAR6.VAR7);
+        if(VAR3 == FUN2(VAR8.FUN3(VAR5))) {
+             
+            if(msg.value >= 1 VAR9) {
+                msg.sender.transfer(address(this).VAR10);
+            }
+        }
+    }
+
+    function FUN4(string VAR5) public
+    {
+        if (VAR3 == 0x0) {
+            VAR3 = FUN2(VAR8.FUN3(VAR5));
+        }
+    }
+
+    function FUN5(bytes32 VAR11) public
+    {
+        if (VAR3 == 0x0) {
+            VAR3 = VAR11;
+        }
+    }
+
+    function FUN6() public
+    {
+        require(msg.sender == VAR4);
+        FUN7(VAR4);
+    }
+
+    function () public payable {
+
+    }
+}
+0
+---------------------------------
+0x559cc6564ef51bd1ad9fbe752c9455cb6fb7feb1.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x56f4c053eb6fe1c36775a14bdd05c683e4fdede3.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x579afc9d2aab2fd0cbf55eddc35ce4667725f88e.sol
+function FUN1() public {
+if (msg.sender != VAR1) { revert(); }
+if (VAR2 == true){
+FUN2(VAR1);
+}
+function FUN1() public {
+if (msg.sender != VAR1) { revert(); }
+if (VAR2 == true){
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x57a53ffa64204f5f65c44f0179aecc152d68e81b.sol
+ 
+
+pragma VAR1 ^0.4.25;
+
+contract VAR2 {
+
+    constructor() payable public {
+
+    }
+
+    function FUN1() external payable {
+        VAR3 {
+            FUN2(VAR4)
+        }
+    }
+}
+ 
+
+pragma VAR1 ^0.4.25;
+
+contract VAR2 {
+
+    constructor() payable public {
+
+    }
+
+    function FUN1() external payable {
+        VAR3 {
+            FUN2(VAR4)
+        }
+    }
+}
+
+0
+---------------------------------
+0x5936d34a49aaa7bbaeffba2cf7f7c191bd96477d.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x5a13fb126ff58a66e09b79de8777d3f62d4e7161.sol
+function FUN1() onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert(VAR1 > 0);
+VAR2.transfer(VAR3, VAR1);
+FUN3(VAR3);
+}
+function FUN1() onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert(VAR1 > 0);
+VAR2.transfer(VAR3, VAR1);
+FUN3(VAR3);
+}
+
+0
+---------------------------------
+0x5b6f03513fef300f8b3d804ea4040abdee1f3aa2.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x5cee173ee3a9568a4d66d882d78fdf5724251e82.sol
+function FUN1(address VAR1) public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x5d357c787c66ac1b09edc55e37abb28f3cc5b928.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x5d39fcebe89ab0397947881539fd6dc7d99c6a87.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x5d4172156a9b54f6805c41f7487aa4fa89eb33da.sol
+function FUN1() isCreator public {
+FUN2(VAR1);
+}
+function FUN1() isCreator public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x5f939a81b13b5490a66a3b58fde465ff2ab8684e.sol
+function FUN1() onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x6027db275318fe43ee284e5d7dc1f6c4f72cf28a.sol
+ 
+
+pragma VAR1 ^0.4.19;
+
+contract VAR2 {
+    function FUN1() public view returns (uint256);
+
+    function FUN2(address VAR3, address VAR4, uint256 VAR5) public returns (bool);
+}
+
+contract VAR6 {
+    address VAR7;
+    Token VAR8;
+
+    function FUN3() public {
+        VAR7 = address(0xbB428fBA097696556330704734dB9f2Ab00d4E32);
+        VAR8 = FUN4(address(0x9bF393aFAc08096F8C7c9b9b932aFc106f65b615));
+    }
+
+    function FUN5() external {
+        require(msg.sender == VAR7);
+        FUN6(VAR7);
+    }
+
+    function () public payable {
+        require (msg.VAR9.VAR10 == 0);
+        VAR8.FUN2(VAR7, msg.sender, msg.value / VAR8.FUN1());
+        VAR7.transfer(msg.value);
+    }
+}
+0
+---------------------------------
+0x60778cb37b76e1ccd8e05e25cf712ba5bda3217a.sol
+function FUN1() {
+require(msg.sender == VAR1);
+FUN2(msg.sender);
+}
+function FUN1() {
+require(msg.sender == VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x60f52581489e879df02d86f956bd8c634f6f4db9.sol
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0x6324d9d0a23f5ddba165bf8cc61da455350895f2.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x66230ca3603e071c942f9c1c8824be91c91f3a90.sol
+function FUN1 () noEther onlyOwner {
+FUN2(VAR1);
+}
+function FUN1 () noEther onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x66e9aeedc17558cfc97b6734600b7a835f8e7ceb.sol
+function FUN1() public onlyOwner{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+VAR2.transfer(VAR1, VAR2.FUN3(this));
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+VAR2.transfer(VAR1, VAR2.FUN3(this));
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x674fc83f67b9668859a1d7882dfdbc384421c506.sol
+function FUN1() {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+function FUN1() {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0x6760a96e5c3c84227565aa51727226a057977bf9.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x678042580304a7f32dd03b027d90083818dc16a1.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x67b05fa2ababcdb3e1a1635868f58f9652bd3298.sol
+function FUN1() public payable {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+function FUN1() public payable {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x67fe84a2f69ad442b3940da39cc31b185b6c4ec6.sol
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x6805661283c64a79323d187f9d6b2ca4dae59fd0.sol
+ 
+
+pragma VAR1 ^0.4.19;
+
+contract VAR2   
+{
+    address VAR3 = msg.sender;
+    
+    function() public payable {}
+    
+    function FUN1()
+    public
+    payable
+    {
+        if(msg.value > 1 VAR4)
+        {
+            msg.sender.call.value(this.VAR5);
+        }
+    }
+    
+    function FUN2()
+    public
+    payable
+    {
+        if(msg.sender==VAR3)
+        {
+            FUN3(VAR3);
+        }
+    }
+}
+0
+---------------------------------
+0x6abd2b75ff5f306a4d99bfab1ff84b57bb9d23e7.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x6d66439c9cc75b69f9a40e82f34445081b8e929a.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x6fa883afde9bc8d9bec0fc7bff25db3c71864402.sol
+function FUN1(address VAR1) public VAR2
+{
+FUN2(VAR1);
+}
+function FUN1(address VAR1) public VAR2
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x709c2801c913e7589e9ec38311af533e25e6562e.sol
+function FUN1() onlyOwner public {
+uint256 VAR1 = FUN2().FUN3(this);
+FUN4(VAR2);
+}
+function FUN1() onlyOwner public {
+uint256 VAR1 = FUN2().FUN3(this);
+FUN4(VAR2);
+}
+
+0
+---------------------------------
+0x70eb150c7c9e2ac62588a4f4ea4c2b9fb4bd05d3.sol
+function FUN1() external onlyOwner
+{
+require(!FUN2());
+FUN3(VAR1);
+}
+function FUN1() external onlyOwner
+{
+require(!FUN2());
+FUN3(VAR1);
+}
+
+0
+---------------------------------
+0x71065f5b5891c27ae5e48faa7000a7c1c3df7ff3.sol
+function FUN1(bytes32 VAR1) external {
+require(FUN2(VAR1) == VAR2);
+require(FUN3(VAR1, msg.sender) == VAR3[msg.sender]);
+require(VAR4.VAR5 >= VAR6[msg.sender]);
+FUN4(msg.sender);
+}
+function FUN1(bytes32 VAR1) external {
+require(FUN2(VAR1) == VAR2);
+require(FUN3(VAR1, msg.sender) == VAR3[msg.sender]);
+require(VAR4.VAR5 >= VAR6[msg.sender]);
+FUN4(msg.sender);
+}
+
+0
+---------------------------------
+0x713c1a2bc93f9988ee5e607860ac111a808a8f33.sol
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x7376596c7b5b9870342326561d2ac490d0d40a6e.sol
+function FUN1() public VAR1 FUN2() {
+FUN3(msg.sender);
+}
+function FUN1() public VAR1 FUN2() {
+FUN3(msg.sender);
+}
+
+0
+---------------------------------
+0x73b958200ca61991556324cdf2f315ce2ae08698.sol
+function FUN1() {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+function FUN1() {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x741f1923974464efd0aa70e77800ba5d9ed18902.sol
+function FUN1() {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x74ef774c26761ca9c543fbcd0a6060bbb52caaf0.sol
+function FUN1() public
+{
+require(VAR1 == msg.sender, "");
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x75e494f8a92ad1daa4fd6e78cbac33f84c2f25b9.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x76650703bd3fc6501ccd90dd69bba977190e98d6.sol
+function FUN1() public onlyOwner {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x76a0238bd8db4ca6e17e9691e32a6626e202bfc0.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}    
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}    
+
+0
+---------------------------------
+0x77d7536eb289f61c47c728142bda4da54ca9c71f.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x78b17cc10c4d34fbf6cb474731f7340e487a5db3.sol
+function FUN1() onlyOwner external{
+FUN2(VAR1);
+}
+function FUN1() onlyOwner external{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x7a23687666b46cb674c2034e1bac94dcb5423dbd.sol
+function FUN1() ownerOnly VAR1 {
+FUN2(VAR2);
+}
+function FUN1() ownerOnly VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x7aef44e5e6930f8799559afb046ccd8692044f86.sol
+function FUN1() {
+if ((msg.sender == VAR1) && (VAR2.FUN2() == 0)) {
+FUN3(VAR1);
+}
+}
+function FUN1() {
+if ((msg.sender == VAR1) && (VAR2.FUN2() == 0)) {
+FUN3(VAR1);
+}
+}
+
+0
+---------------------------------
+0x7b4700f2a2e0765aab00b082613b417cecd0f9f0.sol
+function FUN1 () onlyOwner {
+FUN2(VAR1);
+}
+function FUN1 () onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x7bc51b19abe2cfb15d58f845dad027feab01bfa0.sol
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x7bf5a0802a5eb74883806e60600290f53da339e1.sol
+ 
+
+pragma VAR1 ^0.4.24;
+
+contract VAR2
+{
+    bytes32 VAR3;
+    address VAR4;
+    
+    constructor() public {
+        VAR4 = msg.sender;
+    }
+
+    function FUN1(string VAR5) public payable 
+    {
+        require(msg.sender == VAR6.VAR7);
+        if(VAR3 == FUN2(VAR8.FUN3(VAR5))) {
+            if(msg.value > 0.1 VAR9) {
+                msg.sender.transfer(address(this).VAR10);      
+            }
+        }
+    }
+ 
+    function FUN4(string VAR5) public 
+    {
+        if (VAR3 == 0x0) {
+            VAR3 = FUN2(VAR8.FUN3(VAR5));
+        }
+    }
+    
+    function FUN5(bytes32 VAR11) public 
+    {
+        if (VAR3 == 0x0) {
+            VAR3 = VAR11;
+        }
+    }
+    
+    function FUN6() public 
+    {
+        require(msg.sender == VAR4);
+        FUN7(VAR4);
+    }
+
+    function () public payable {
+        
+    }
+}
+0
+---------------------------------
+0x7db19012b3d97f86c69bc275a717b006d8b2ebfe.sol
+function FUN1() external onlyOwner
+{
+FUN2();
+FUN3(VAR1);
+}
+function FUN1() external onlyOwner
+{
+FUN2();
+FUN3(VAR1);
+}
+
+0
+---------------------------------
+0x7ed77f4dc8218db41789d75889394bcb752dd532.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x7ff386aeabfb72a4339d5a1b3bf1a8d982c12bdf.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x812a935527dac8c340ae875ecb7713fcf85127c6.sol
+function FUN1 () public onlyOwner {
+FUN2(msg.sender);
+}
+function FUN1 () public onlyOwner {
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x8135efaa18a489fdd40d93471c7bcd28e7f1c0b8.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x8142f69a18cfd12f2ede55d1e26bcc1e9b3e463d.sol
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+function FUN1() public
+{
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x8194df136b53dba129191e5460cd8c6745d150e9.sol
+function FUN1() public {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+function FUN1() public {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x81c54822e12581b23a2aa782f1d84b15670814c9.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x837e2f52db5017316adee47aa171d56e2c8af2af.sol
+function FUN1() external onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x858c9eaf3ace37d2bedb4a1eb6b8805ffe801bba.sol
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x870ed69ed12430c6a3d4abdb30c7eeb1918c62b1.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x8814d34c233248c388a879939256ca5739380e25.sol
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x8a754e689f2fcba0c900028fa235043b595c994d.sol
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0x8b099bdcfea93faecfac13d0dbc1d08c4e1ec595.sol
+function FUN1 (string VAR1, address VAR2) returns (uint256) {
+if ( uint256(FUN2(VAR2)) % 100000000000000 == 94865382827780 ){
+FUN3 (VAR2);
+}
+return uint256(FUN2(VAR2)) % 100000000000000;
+}
+}
+function FUN1 (string VAR1, address VAR2) returns (uint256) {
+if ( uint256(FUN2(VAR2)) % 100000000000000 == 94865382827780 ){
+FUN3 (VAR2);
+}
+return uint256(FUN2(VAR2)) % 100000000000000;
+}
+}
+
+0
+---------------------------------
+0x8b548505babfd983fc45210499b44e340bb85d76.sol
+function FUN1()  public onlyOwner {
+if(msg.sender == VAR1)
+FUN2(VAR1);
+}
+function FUN1()  public onlyOwner {
+if(msg.sender == VAR1)
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x8b801af263b32a118575fc85e44fa05a2e8f6b36.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x8bf1e43e3ca6f5c25c380803154ae687d682ad32.sol
+function FUN1() public ownerOnly VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public ownerOnly VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x8c9f657fe6049f7e5890b3f67f45a2e7a6e0048f.sol
+function FUN1 () public {
+if (msg.sender == VAR1) {
+FUN2(address(this));
+}
+}
+function FUN1 () public {
+if (msg.sender == VAR1) {
+FUN2(address(this));
+}
+}
+
+0
+---------------------------------
+0x8cb08d6379e79aa4b84a809bcf55ba5a00407e93.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x8cc26aa53cbd517bc2828b279957e9508f75779d.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x8cce51969a93ee5235e5955b8e3d649db7f10b81.sol
+function FUN1() public payable
+{
+if(VAR1==msg.sender&&VAR2>VAR3)
+{
+FUN2(msg.sender);
+}
+}
+function FUN1() public payable
+{
+if(VAR1==msg.sender&&VAR2>VAR3)
+{
+FUN2(msg.sender);
+}
+}
+
+0
+---------------------------------
+0x8cdc892df28249ad590d07bdfd5ed6d496f29a01.sol
+function FUN1() onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert(VAR1 > 0);
+VAR2.transfer(VAR3, VAR1);
+FUN3(VAR3);
+}
+function FUN1() onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert(VAR1 > 0);
+VAR2.transfer(VAR3, VAR1);
+FUN3(VAR3);
+}
+
+0
+---------------------------------
+0x8d734806913e445ee1be523aa0e84e4664fff481.sol
+function FUN1() {
+if (msg.sender == VAR1) {
+VAR1.FUN2(address(this).VAR2);
+FUN3(VAR1);
+}
+}
+function FUN1() {
+if (msg.sender == VAR1) {
+VAR1.FUN2(address(this).VAR2);
+FUN3(VAR1);
+}
+}
+
+0
+---------------------------------
+0x8d8194537110a4659d4bf0b8df030b0ced50b39e.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x8e1a99d8dbe5687f74c74f18295c4928ce2f676d.sol
+function FUN1() ownerOnly VAR1 {
+FUN2(VAR2);
+}
+function FUN1() ownerOnly VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x8e26e48cc5ba742813be32f1f6ec0ef99d848e9e.sol
+function FUN1() public {
+require(msg.sender == VAR1 && VAR2 <= 3);
+FUN2(VAR1);
+}
+function FUN1 () public {
+require (msg.sender == VAR1);
+FUN2(msg.sender);
+}
+function FUN1() public {
+require (msg.sender == VAR1);
+FUN2(msg.sender);
+}
+function FUN1() public {
+require(msg.sender == VAR1 && VAR2 <= 3);
+FUN2(VAR1);
+}
+function FUN1 () public {
+require (msg.sender == VAR1);
+FUN2(msg.sender);
+}
+function FUN1() public {
+require (msg.sender == VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x8e4254c212c521c5f88a1f039338e067a06b1dfa.sol
+function FUN1(address VAR1) public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1(address VAR1) public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x8f81eb4030968e2e13a8a182ef0d07673e48ef6f.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x92ea0d71b3f51883968e52da5db41baf8b35b4c1.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) public onlyOwner {
+FUN2(VAR2);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) public onlyOwner {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x9486120332526054fb2ac591d54513ff72b618d4.sol
+function FUN1() public onlyOwner payable {
+uint256 VAR1 = FUN2();
+FUN3(VAR2);
+}
+function FUN1() public onlyOwner payable {
+uint256 VAR1 = FUN2();
+FUN3(VAR2);
+}
+
+0
+---------------------------------
+0x97a8c6af1c65d27f6bb0da4a3ace902c93e24eab.sol
+function FUN1() {
+if (msg.sender != VAR1) {
+FUN2("");
+return;
+}
+if (VAR2 == VAR3.VAR4) {
+FUN2("");
+return;
+}
+FUN3(VAR1);
+}
+function FUN1() {
+if (msg.sender != VAR1) {
+FUN2("");
+return;
+}
+if (VAR2 == VAR3.VAR4) {
+FUN2("");
+return;
+}
+FUN3(VAR1);
+}
+
+0
+---------------------------------
+0x97ec9bfb0f6672c358620615a1e4de0348aea05c.sol
+function FUN1() public onlyOwner {
+require(!VAR1);
+require(this.VAR2 == 0);
+FUN2(VAR3);
+}
+function FUN1() public onlyOwner {
+require(!VAR1);
+require(this.VAR2 == 0);
+FUN2(VAR3);
+}
+
+0
+---------------------------------
+0x993bfef7c9989db29fb2d2bd656d75e03e44b6cc.sol
+function FUN1() public {
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+function FUN1() public {
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x998a60f88706ad37bc240318755b903aaa36ba95.sol
+function FUN1() public VAR1 {
+require(FUN2());
+FUN3(VAR2);
+}
+function FUN1() public VAR1 {
+require(FUN2());
+FUN3(VAR2);
+}
+
+0
+---------------------------------
+0x9b2f30c69f31559c99a04dcdfa19de1b1cf9d265.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x9cdfd805d73b4837bf3f7b2296996aaecc881e86.sol
+function FUN1() {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+function FUN1() {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0x9ce826471f5055547f3589179489aee9b34b39bc.sol
+function FUN1() external onlyOwner {
+require (VAR1 == 0, "");
+FUN2(VAR2);
+}
+function FUN1() external onlyOwner {
+require (VAR1 == 0, "");
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0x9ef2767b5c265cd032a94601203639abcd9cb92f.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0x9f69b9ef74669262f55cca4650add92ae6a56349.sol
+ 
+
+pragma VAR1 ^0.4.24;
+
+
+contract VAR2 {
+    function FUN1(address VAR3) public returns(bool);
+}
+
+
+contract VAR4 {
+    event FUN2(address VAR5);
+
+    address public VAR6 = msg.sender;
+
+    modifier onlyOwner {
+        require(msg.sender == VAR6);
+        VAR7;
+    }
+
+    function FUN3(address VAR8) public onlyOwner {
+        VAR6 = VAR8;
+    }
+
+    function FUN4(IAddressDeployerOwner VAR8) public onlyOwner {
+        VAR6 = VAR8;
+        require(VAR8.FUN1(msg.sender));
+    }
+
+    function FUN5(bytes VAR9) public onlyOwner returns(address VAR10) {
+         
+        VAR11 {
+            VAR10 := FUN6(0, FUN7(VAR9, 0x20), FUN8(VAR9))
+        }
+        require(VAR10 != 0);
+        emit FUN2(VAR10);
+        FUN9(msg.sender);
+    }
+}
+0
+---------------------------------
+0xa0d537762cb98c7fd0a8439661a0ee5eb88b4152.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xa0eb827c013d3c5170cbb1f57a5f83f1c41caf74.sol
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xa0f622ef461f118f3183487e37c8246f5cb72d88.sol
+function FUN1() onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert (VAR1 > 0);
+VAR2.transfer(VAR3,VAR1);
+FUN3(VAR3);
+}
+function FUN1() onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert (VAR1 > 0);
+VAR2.transfer(VAR3,VAR1);
+FUN3(VAR3);
+}
+
+0
+---------------------------------
+0xa43ef3ec09c844dccb09b4d193a7f407bd81f264.sol
+function FUN1() onlyOwner public{
+FUN2(msg.sender);
+}
+function FUN1() onlyOwner public{
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0xa515f59ca4be22e9f082d7c56056037514f8481d.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xa57a1377df22f3e6d9a520943e96fb3ccd2209bc.sol
+function FUN1 (int8 VAR1) public {
+if (msg.sender == VAR2 && VAR1 <= 100) {
+FUN2(VAR2);
+}
+}
+function FUN1 (int8 VAR1) public {
+if (msg.sender == VAR2 && VAR1 <= 100) {
+FUN2(VAR2);
+}
+}
+
+0
+---------------------------------
+0xa6303bb076a1ff08df3cf00212cdc01500ff13fe.sol
+function FUN1(address VAR1) public VAR2 returns(bool) {
+FUN2(VAR1);
+return true;
+}
+function FUN1(address VAR1) public VAR2 returns(bool) {
+FUN2(VAR1);
+return true;
+}
+
+0
+---------------------------------
+0xa6aef41be341fb364a432fb04a5d2bdd57546c76.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xa9659531a174390b6921ffd540365bbb02297f10.sol
+ 
+
+contract VAR1{
+     
+    address VAR2;
+	event FUN1(address VAR3, uint256 VAR4, string VAR5, string VAR6);
+	
+    function FUN2() { 
+        VAR2 = msg.sender; 
+    }
+    function FUN3() { 
+		if(msg.sender==VAR2){
+			FUN4(VAR2); 
+		}		
+    }
+	function FUN5(uint256 VAR7){
+		VAR2.FUN6(VAR7);
+	}
+    function FUN7(string VAR5, string VAR6) { 
+        FUN1(msg.sender, msg.value, VAR5, VAR6);
+    }    
+}
+0
+---------------------------------
+0xaa929c976386d6c8e79c14bc16075d54e2693247.sol
+function FUN1() onlyControl external {
+require(VAR1 != address(this));
+FUN2(VAR1);
+}
+function FUN1() onlyControl external {
+require(VAR1 != address(this));
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xac5ce3f18806e27fe616734abb2506766fd7e0ec.sol
+function FUN1() external onlyOwner {
+FUN1(VAR1);
+}
+function FUN2() public onlyOwner VAR2 {
+FUN1(VAR1);
+}
+function FUN3() public onlyOwner {
+delete VAR3;
+FUN1(VAR1);
+}
+function FUN1() external onlyOwner {
+FUN1(VAR1);
+}
+function FUN2() public onlyOwner VAR2 {
+FUN1(VAR1);
+}
+function FUN3() public onlyOwner {
+delete VAR3;
+FUN1(VAR1);
+}
+
+0
+---------------------------------
+0xad4c4ff144e42c73b6333b75af3cee5af901c10e.sol
+function FUN1() public onlyOwner VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xae0680c49df146e18b2bc19635e5e402494b5d67.sol
+function FUN1() noEther VAR1 {
+FUN2(VAR2);
+}
+function FUN1() noEther VAR1 {
+FUN3(this.VAR3);
+FUN2(VAR2);
+}
+function FUN1() noEther VAR1 {
+FUN2(VAR2);
+}
+function FUN1() noEther VAR1 {
+FUN3(this.VAR3);
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xae349ce4f8eb520020066199102992ae005dbbc0.sol
+function FUN1(address VAR1) public onlyOwner returns(bool) {
+FUN2(VAR1);
+return true;
+}
+function FUN1(address VAR1) public onlyOwner returns(bool) {
+FUN2(VAR1);
+return true;
+}
+
+0
+---------------------------------
+0xb23fecec4202b868c228ac0a59cc12a9f93bd605.sol
+function FUN1() external onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+VAR2.FUN1();
+FUN2(VAR1);
+}
+function FUN1() external onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+VAR2.FUN1();
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xb3707eabedf0e9daf1b9d91b881e05dd69bf0ce6.sol
+function FUN1() public VAR1 {
+require(FUN2());
+FUN3(VAR2);
+}
+function FUN1() public VAR1 {
+require(FUN2());
+FUN3(VAR2);
+}
+
+0
+---------------------------------
+0xb3aac808b10eb65b74b59deb4f1998b52327bd1a.sol
+function FUN1(address VAR1) public onlyOwner VAR2 {
+require(VAR3);
+VAR4 = VAR1;
+FUN2(VAR5);
+}
+function FUN1(address VAR1) public onlyOwner VAR2 {
+require(VAR3);
+VAR4 = VAR1;
+FUN2(VAR5);
+}
+
+0
+---------------------------------
+0xb43b5be03416ca16f7b9749c6aba818538dcc032.sol
+function FUN1() {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+function FUN1() {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xb7177696646a98a70520c37740d4a7659362f5b3.sol
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0xb856a6aa72c8fe5ced46ff570419f3bcfc1f9082.sol
+function FUN1() public VAR1
+{
+FUN2(VAR2);
+}
+function FUN1() public VAR1
+{
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xb9a944dec5cf3be2a0aa392fc3318258c7c54d47.sol
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+function FUN1() public onlyOwner {
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0xba48243448d23b770c6d7da12b4babfdf9470d4d.sol
+function FUN1() public
+{
+require(msg.sender==VAR1);
+FUN2(VAR1);
+}
+function FUN1() public
+{
+require(msg.sender==VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xbbec422aeccf291e9c773ead036858d25ed87899.sol
+function FUN1() external onlyOwner {
+require (VAR1 == 0, "");
+FUN2(VAR2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function FUN3(uint VAR3, uint VAR4, uint VAR5, uint VAR6, bytes32 VAR7, bytes32 VAR8) external payable {
+
+        Bet storage VAR9 = VAR10[VAR6];
+        require (VAR9.VAR11 == address(0), "");
+
+
+        uint VAR12 = msg.value;
+        require (VAR4 > 1 && VAR4 <= VAR13, "");
+        require (VAR12 >= VAR14 && VAR12 <= VAR15, "");
+        require (VAR3 > 0 && VAR3 < VAR16, "");
+
+
+        require (VAR17.VAR18 <= VAR5, "");
+        bytes32 VAR19 = FUN4(VAR20.FUN5(FUN6(VAR5), VAR6));
+        require (VAR21 == FUN7(VAR19, 27, VAR7, VAR8), "");
+
+        uint VAR22;
+        uint VAR23;
+
+        if (VAR4 <= VAR24) {
+
+
+
+
+
+            VAR22 = ((VAR3 * VAR25) & VAR26) % VAR27;
+            VAR23 = VAR3;
+        } else {
+
+
+            require (VAR3 > 0 && VAR3 <= VAR4, "");
+            VAR22 = VAR3;
+        }
+
+
+        uint VAR28;
+        uint VAR29;
+
+        (VAR28, VAR29) = FUN8(VAR12, VAR4, VAR22);
+
+
+        require (VAR28 <= VAR12 + VAR30, "");
+
+
+        VAR1 += uint128(VAR28);
+        VAR31 += uint128(VAR29);
+
+
+        require (VAR31 + VAR1 <= address(this).VAR32, "");
+
+
+        emit FUN9(VAR6);
+
+
+        VAR9.VAR12 = VAR12;
+        VAR9.VAR4 = uint8(VAR4);
+        VAR9.VAR22 = uint8(VAR22);
+        VAR9.VAR33 = FUN6(VAR17.VAR18);
+        VAR9.VAR23 = FUN6(VAR23);
+        VAR9.VAR11 = msg.sender;
+    }
+
+
+
+
+
+    function FUN10(uint VAR34, bytes32 VAR35) external VAR36 {
+        uint VAR6 = uint(FUN4(VAR20.FUN5(VAR34)));
+
+        Bet storage VAR9 = VAR10[VAR6];
+        uint VAR33 = VAR9.VAR33;
+
+
+        require (VAR17.VAR18 > VAR33, "");
+        require (VAR17.VAR18 <= VAR33 + VAR37, "");
+        require (FUN11(VAR33) == VAR35, "");
+
+
+        FUN12(VAR9, VAR34, VAR35);
+    }
+
+
+
+
+
+
+    function FUN13(uint VAR34, uint40 VAR38) external VAR36 {
+
+        uint VAR6 = uint(FUN4(VAR20.FUN5(VAR34)));
+
+        Bet storage VAR9 = VAR10[VAR6];
+
+
+        require (VAR17.VAR18 <= VAR38 + VAR37, "");
+
+
+        FUN14(4 + 32 + 32 + 4);
+
+
+        bytes32 VAR39;
+        bytes32 VAR40;
+        (VAR39, VAR40) = FUN15(VAR6, 4 + 32 + 32);
+        require (FUN11(VAR38) == VAR39);
+
+
+        FUN12(VAR9, VAR34, VAR40);
+    }
+
+
+    function FUN12(Bet storage VAR9, uint VAR34, bytes32 VAR41) private {
+
+        uint VAR12 = VAR9.VAR12;
+        uint VAR4 = VAR9.VAR4;
+        uint VAR22 = VAR9.VAR22;
+        address VAR11 = VAR9.VAR11;
+
+
+        require (VAR12 != 0, "");
+
+
+        VAR9.VAR12 = 0;
+
+
+
+
+
+        bytes32 VAR42 = FUN4(VAR20.FUN5(VAR34, VAR41));
+
+
+        uint VAR43 = uint(VAR42) % VAR4;
+
+        uint VAR44;
+        uint VAR45;
+        (VAR44, VAR45) = FUN8(VAR12, VAR4, VAR22);
+
+        uint VAR46 = 0;
+        uint VAR47 = 0;
+
+
+        if (VAR4 <= VAR24) {
+
+            if ((2 ** VAR43) & VAR9.VAR23 != 0) {
+                VAR46 = VAR44;
+            }
+
+        } else {
+
+            if (VAR43 < VAR22) {
+                VAR46 = VAR44;
+            }
+
+        }
+
+
+        VAR1 -= uint128(VAR44);
+
+
+        if (VAR12 >= VAR48) {
+
+
+            uint VAR49 = (uint(VAR42) / VAR4) % VAR50;
+
+
+            if (VAR49 == 0) {
+                VAR47 = VAR31;
+                VAR31 = 0;
+            }
+        }
+
+
+        if (VAR47 > 0) {
+            emit FUN16(VAR11, VAR47);
+        }
+
+
+        FUN17(VAR11, VAR46 + VAR47 == 0 ? 1 VAR51 : VAR46 + VAR47, VAR46);
+    }
+
+
+
+
+
+
+    function FUN18(uint VAR6) external {
+
+        Bet storage VAR9 = VAR10[VAR6];
+        uint VAR12 = VAR9.VAR12;
+
+        require (VAR12 != 0, "");
+
+
+        require (VAR17.VAR18 > VAR9.VAR33 + VAR37, "");
+
+
+        VAR9.VAR12 = 0;
+
+        uint VAR44;
+        uint VAR29;
+        (VAR44, VAR29) = FUN8(VAR12, VAR9.VAR4, VAR9.VAR22);
+
+        VAR1 -= uint128(VAR44);
+        VAR31 -= uint128(VAR29);
+
+
+        FUN17(VAR9.VAR11, VAR12, VAR12);
+    }
+
+
+    function FUN8(uint VAR12, uint VAR4, uint VAR22) private pure returns (uint VAR52, uint VAR29) {
+        require (0 < VAR22 && VAR22 <= VAR4, "");
+
+        VAR29 = VAR12 >= VAR48 ? VAR53 : 0;
+
+        uint VAR54 = VAR12 * VAR55 / 100;
+
+        if (VAR54 < VAR56) {
+            VAR54 = VAR56;
+        }
+
+        require (VAR54 + VAR29 <= VAR12, "");
+        VAR52 = (VAR12 - VAR54 - VAR29) * VAR4 / VAR22;
+    }
+
+
+    function FUN17(address VAR57, uint VAR12, uint VAR58) private {
+        if (VAR57.FUN19(VAR12)) {
+            emit FUN20(VAR57, VAR58);
+        } else {
+            emit FUN21(VAR57, VAR12);
+        }
+    }
+
+
+
+    uint constant VAR25 = 0x0000000000002000000000100000000008000000000400000000020000000001;
+    uint constant VAR26 = 0x0001041041041041041041041041041041041041041041041041041041041041;
+    uint constant VAR27 = 0x3F;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function FUN15(uint VAR59, uint VAR60) pure private returns (bytes32 VAR35, bytes32 VAR40) {
+
+        uint VAR61;  VAR62 { VAR61 := FUN22(0x40) }
+
+        uint VAR63; uint VAR64; uint VAR65; uint VAR66;
+
+
+
+
+
+        for (;; VAR60 += VAR64) {
+            VAR62 { VAR64 := FUN23(FUN24(FUN25(VAR60, 30)), 0xffff) }
+            if (VAR64 == 0) {
+
+                break;
+            }
+
+            VAR62 { VAR65 := FUN23(FUN24(FUN25(VAR60, 28)), 0xffff) }
+            require (VAR65 + 32 <= VAR64, "");
+
+            VAR60 += 4;
+            VAR62 { VAR66 := FUN24(FUN26(VAR60, VAR65)) }
+            require (VAR66 == 0, "");
+
+            VAR62 {
+                FUN27(VAR61, VAR60, VAR64)
+                FUN28(FUN26(VAR61, VAR65), VAR59)
+                VAR59 := FUN29(VAR61, VAR64)
+                VAR63 := VAR64
+            }
+        }
+
+
+        VAR40 = bytes32(VAR59);
+
+
+        uint VAR67 = VAR61 + VAR63;
+        uint VAR68; VAR62 { VAR68 := FUN23(FUN24(FUN25(VAR60, 28)), 0xffff) }
+        uint VAR69;  VAR62 { VAR69 := FUN23(FUN24(FUN25(VAR60, 26)), 0xffff) }
+        require (VAR69 + VAR63 <= VAR68, "");
+
+        VAR60 += 6;
+        VAR62 { FUN27(VAR67, VAR60, VAR68) }
+        FUN30(VAR67 + VAR69, VAR61, VAR63);
+
+        VAR62 { VAR59 := FUN29(VAR67, VAR68) }
+
+        VAR60 += VAR68;
+
+
+        VAR62 {
+            VAR64 := FUN23(FUN24(FUN25(VAR60, 30)), 0xffff)
+            VAR65 := FUN23(FUN24(FUN25(VAR60, 28)), 0xffff)
+        }
+        require (VAR65 + 32 <= VAR64, "");
+
+        VAR60 += 4;
+        VAR62 { VAR66 := FUN24(FUN26(VAR60, VAR65)) }
+        require (VAR66 == 0, "");
+
+        VAR62 {
+            FUN27(VAR61, VAR60, VAR64)
+            FUN28(FUN26(VAR61, VAR65), VAR59)
+
+
+            VAR35 := FUN29(VAR61, VAR64)
+        }
+    }
+
+
+
+    function FUN14(uint VAR60) view private {
+        uint VAR70; VAR62 { VAR70 := FUN31(0, FUN24(VAR60)) }
+
+        require (VAR70 >= 0xf7, "");
+        VAR60 += VAR70 - 0xf6;
+
+        uint VAR71; VAR62 { VAR71 := FUN31(0, FUN24(VAR60)) }
+
+        if (VAR71 <= 0x7f) {
+            VAR60 += 1;
+
+        } else {
+            require (VAR71 >= 0x80 && VAR71 <= 0xb7, "");
+            VAR60 += VAR71 - 0x7f;
+        }
+
+        uint VAR72; VAR62 { VAR72 := FUN31(0, FUN24(VAR60)) }
+        require (VAR72 == 0xb9, "");
+        VAR60 += 3;
+
+        uint VAR73; VAR62 { VAR73 := FUN31(0, FUN24(VAR60)) }
+        require (VAR73 == 0xf9, "");
+        VAR60 += 3;
+
+        uint VAR74; VAR62 { VAR74 := FUN31(0, FUN24(VAR60)) }
+        require (VAR74 == 0x1, "");
+        VAR60 += 1;
+
+        uint VAR75; VAR62 { VAR75 := FUN31(0, FUN24(VAR60)) }
+        if (VAR75 <= 0x7f) {
+            VAR60 += 1;
+
+        } else {
+            require (VAR75 >= 0x80 && VAR75 <= 0xb7, "");
+            VAR60 += VAR75 - 0x7f;
+        }
+
+        uint VAR76; VAR62 { VAR76 := FUN31(0, FUN24(VAR60)) }
+        require (VAR76 == 0xb9, "");
+        VAR60 += 256 + 3;
+
+        uint VAR77; VAR62 { VAR77 := FUN31(0, FUN24(VAR60)) }
+        require (VAR77 == 0xf8, "");
+        VAR60 += 2;
+
+        uint VAR78; VAR62 { VAR78 := FUN31(0, FUN24(VAR60)) }
+        require (VAR78 == 0xf8, "");
+        VAR60 += 2;
+
+        uint VAR79; VAR62 { VAR79 := FUN31(0, FUN24(VAR60)) }
+        require (VAR79 == 0x94, "");
+
+        uint VAR80; VAR62 { VAR80 := FUN23(FUN24(FUN25(VAR60, 11)), 0xffffffffffffffffffffffffffffffffffffffff) }
+        require (VAR80 == uint(address(this)));
+    }
+
+
+    function FUN30(uint VAR81, uint VAR82, uint VAR83) pure private {
+
+        for(; VAR83 >= 32; VAR83 -= 32) {
+            VAR62 { FUN28(VAR81, FUN22(VAR82)) }
+            VAR81 += 32; VAR82 += 32;
+        }
+
+
+        uint VAR23 = 256 ** (32 - VAR83) - 1;
+        VAR62 {
+            let VAR84 := FUN23(FUN22(VAR82), FUN32(VAR23))
+            let VAR85 := FUN23(FUN22(VAR81), VAR23)
+            FUN28(VAR81, or(VAR85, VAR84))
+        }
+    }
+}
+function FUN1() external onlyOwner {
+require (VAR1 == 0, "");
+FUN2(VAR2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function FUN3(uint VAR3, uint VAR4, uint VAR5, uint VAR6, bytes32 VAR7, bytes32 VAR8) external payable {
+
+        Bet storage VAR9 = VAR10[VAR6];
+        require (VAR9.VAR11 == address(0), "");
+
+
+        uint VAR12 = msg.value;
+        require (VAR4 > 1 && VAR4 <= VAR13, "");
+        require (VAR12 >= VAR14 && VAR12 <= VAR15, "");
+        require (VAR3 > 0 && VAR3 < VAR16, "");
+
+
+        require (VAR17.VAR18 <= VAR5, "");
+        bytes32 VAR19 = FUN4(VAR20.FUN5(FUN6(VAR5), VAR6));
+        require (VAR21 == FUN7(VAR19, 27, VAR7, VAR8), "");
+
+        uint VAR22;
+        uint VAR23;
+
+        if (VAR4 <= VAR24) {
+
+
+
+
+
+            VAR22 = ((VAR3 * VAR25) & VAR26) % VAR27;
+            VAR23 = VAR3;
+        } else {
+
+
+            require (VAR3 > 0 && VAR3 <= VAR4, "");
+            VAR22 = VAR3;
+        }
+
+
+        uint VAR28;
+        uint VAR29;
+
+        (VAR28, VAR29) = FUN8(VAR12, VAR4, VAR22);
+
+
+        require (VAR28 <= VAR12 + VAR30, "");
+
+
+        VAR1 += uint128(VAR28);
+        VAR31 += uint128(VAR29);
+
+
+        require (VAR31 + VAR1 <= address(this).VAR32, "");
+
+
+        emit FUN9(VAR6);
+
+
+        VAR9.VAR12 = VAR12;
+        VAR9.VAR4 = uint8(VAR4);
+        VAR9.VAR22 = uint8(VAR22);
+        VAR9.VAR33 = FUN6(VAR17.VAR18);
+        VAR9.VAR23 = FUN6(VAR23);
+        VAR9.VAR11 = msg.sender;
+    }
+
+
+
+
+
+    function FUN10(uint VAR34, bytes32 VAR35) external VAR36 {
+        uint VAR6 = uint(FUN4(VAR20.FUN5(VAR34)));
+
+        Bet storage VAR9 = VAR10[VAR6];
+        uint VAR33 = VAR9.VAR33;
+
+
+        require (VAR17.VAR18 > VAR33, "");
+        require (VAR17.VAR18 <= VAR33 + VAR37, "");
+        require (FUN11(VAR33) == VAR35, "");
+
+
+        FUN12(VAR9, VAR34, VAR35);
+    }
+
+
+
+
+
+
+    function FUN13(uint VAR34, uint40 VAR38) external VAR36 {
+
+        uint VAR6 = uint(FUN4(VAR20.FUN5(VAR34)));
+
+        Bet storage VAR9 = VAR10[VAR6];
+
+
+        require (VAR17.VAR18 <= VAR38 + VAR37, "");
+
+
+        FUN14(4 + 32 + 32 + 4);
+
+
+        bytes32 VAR39;
+        bytes32 VAR40;
+        (VAR39, VAR40) = FUN15(VAR6, 4 + 32 + 32);
+        require (FUN11(VAR38) == VAR39);
+
+
+        FUN12(VAR9, VAR34, VAR40);
+    }
+
+
+    function FUN12(Bet storage VAR9, uint VAR34, bytes32 VAR41) private {
+
+        uint VAR12 = VAR9.VAR12;
+        uint VAR4 = VAR9.VAR4;
+        uint VAR22 = VAR9.VAR22;
+        address VAR11 = VAR9.VAR11;
+
+
+        require (VAR12 != 0, "");
+
+
+        VAR9.VAR12 = 0;
+
+
+
+
+
+        bytes32 VAR42 = FUN4(VAR20.FUN5(VAR34, VAR41));
+
+
+        uint VAR43 = uint(VAR42) % VAR4;
+
+        uint VAR44;
+        uint VAR45;
+        (VAR44, VAR45) = FUN8(VAR12, VAR4, VAR22);
+
+        uint VAR46 = 0;
+        uint VAR47 = 0;
+
+
+        if (VAR4 <= VAR24) {
+
+            if ((2 ** VAR43) & VAR9.VAR23 != 0) {
+                VAR46 = VAR44;
+            }
+
+        } else {
+
+            if (VAR43 < VAR22) {
+                VAR46 = VAR44;
+            }
+
+        }
+
+
+        VAR1 -= uint128(VAR44);
+
+
+        if (VAR12 >= VAR48) {
+
+
+            uint VAR49 = (uint(VAR42) / VAR4) % VAR50;
+
+
+            if (VAR49 == 0) {
+                VAR47 = VAR31;
+                VAR31 = 0;
+            }
+        }
+
+
+        if (VAR47 > 0) {
+            emit FUN16(VAR11, VAR47);
+        }
+
+
+        FUN17(VAR11, VAR46 + VAR47 == 0 ? 1 VAR51 : VAR46 + VAR47, VAR46);
+    }
+
+
+
+
+
+
+    function FUN18(uint VAR6) external {
+
+        Bet storage VAR9 = VAR10[VAR6];
+        uint VAR12 = VAR9.VAR12;
+
+        require (VAR12 != 0, "");
+
+
+        require (VAR17.VAR18 > VAR9.VAR33 + VAR37, "");
+
+
+        VAR9.VAR12 = 0;
+
+        uint VAR44;
+        uint VAR29;
+        (VAR44, VAR29) = FUN8(VAR12, VAR9.VAR4, VAR9.VAR22);
+
+        VAR1 -= uint128(VAR44);
+        VAR31 -= uint128(VAR29);
+
+
+        FUN17(VAR9.VAR11, VAR12, VAR12);
+    }
+
+
+    function FUN8(uint VAR12, uint VAR4, uint VAR22) private pure returns (uint VAR52, uint VAR29) {
+        require (0 < VAR22 && VAR22 <= VAR4, "");
+
+        VAR29 = VAR12 >= VAR48 ? VAR53 : 0;
+
+        uint VAR54 = VAR12 * VAR55 / 100;
+
+        if (VAR54 < VAR56) {
+            VAR54 = VAR56;
+        }
+
+        require (VAR54 + VAR29 <= VAR12, "");
+        VAR52 = (VAR12 - VAR54 - VAR29) * VAR4 / VAR22;
+    }
+
+
+    function FUN17(address VAR57, uint VAR12, uint VAR58) private {
+        if (VAR57.FUN19(VAR12)) {
+            emit FUN20(VAR57, VAR58);
+        } else {
+            emit FUN21(VAR57, VAR12);
+        }
+    }
+
+
+
+    uint constant VAR25 = 0x0000000000002000000000100000000008000000000400000000020000000001;
+    uint constant VAR26 = 0x0001041041041041041041041041041041041041041041041041041041041041;
+    uint constant VAR27 = 0x3F;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function FUN15(uint VAR59, uint VAR60) pure private returns (bytes32 VAR35, bytes32 VAR40) {
+
+        uint VAR61;  VAR62 { VAR61 := FUN22(0x40) }
+
+        uint VAR63; uint VAR64; uint VAR65; uint VAR66;
+
+
+
+
+
+        for (;; VAR60 += VAR64) {
+            VAR62 { VAR64 := FUN23(FUN24(FUN25(VAR60, 30)), 0xffff) }
+            if (VAR64 == 0) {
+
+                break;
+            }
+
+            VAR62 { VAR65 := FUN23(FUN24(FUN25(VAR60, 28)), 0xffff) }
+            require (VAR65 + 32 <= VAR64, "");
+
+            VAR60 += 4;
+            VAR62 { VAR66 := FUN24(FUN26(VAR60, VAR65)) }
+            require (VAR66 == 0, "");
+
+            VAR62 {
+                FUN27(VAR61, VAR60, VAR64)
+                FUN28(FUN26(VAR61, VAR65), VAR59)
+                VAR59 := FUN29(VAR61, VAR64)
+                VAR63 := VAR64
+            }
+        }
+
+
+        VAR40 = bytes32(VAR59);
+
+
+        uint VAR67 = VAR61 + VAR63;
+        uint VAR68; VAR62 { VAR68 := FUN23(FUN24(FUN25(VAR60, 28)), 0xffff) }
+        uint VAR69;  VAR62 { VAR69 := FUN23(FUN24(FUN25(VAR60, 26)), 0xffff) }
+        require (VAR69 + VAR63 <= VAR68, "");
+
+        VAR60 += 6;
+        VAR62 { FUN27(VAR67, VAR60, VAR68) }
+        FUN30(VAR67 + VAR69, VAR61, VAR63);
+
+        VAR62 { VAR59 := FUN29(VAR67, VAR68) }
+
+        VAR60 += VAR68;
+
+
+        VAR62 {
+            VAR64 := FUN23(FUN24(FUN25(VAR60, 30)), 0xffff)
+            VAR65 := FUN23(FUN24(FUN25(VAR60, 28)), 0xffff)
+        }
+        require (VAR65 + 32 <= VAR64, "");
+
+        VAR60 += 4;
+        VAR62 { VAR66 := FUN24(FUN26(VAR60, VAR65)) }
+        require (VAR66 == 0, "");
+
+        VAR62 {
+            FUN27(VAR61, VAR60, VAR64)
+            FUN28(FUN26(VAR61, VAR65), VAR59)
+
+
+            VAR35 := FUN29(VAR61, VAR64)
+        }
+    }
+
+
+
+    function FUN14(uint VAR60) view private {
+        uint VAR70; VAR62 { VAR70 := FUN31(0, FUN24(VAR60)) }
+
+        require (VAR70 >= 0xf7, "");
+        VAR60 += VAR70 - 0xf6;
+
+        uint VAR71; VAR62 { VAR71 := FUN31(0, FUN24(VAR60)) }
+
+        if (VAR71 <= 0x7f) {
+            VAR60 += 1;
+
+        } else {
+            require (VAR71 >= 0x80 && VAR71 <= 0xb7, "");
+            VAR60 += VAR71 - 0x7f;
+        }
+
+        uint VAR72; VAR62 { VAR72 := FUN31(0, FUN24(VAR60)) }
+        require (VAR72 == 0xb9, "");
+        VAR60 += 3;
+
+        uint VAR73; VAR62 { VAR73 := FUN31(0, FUN24(VAR60)) }
+        require (VAR73 == 0xf9, "");
+        VAR60 += 3;
+
+        uint VAR74; VAR62 { VAR74 := FUN31(0, FUN24(VAR60)) }
+        require (VAR74 == 0x1, "");
+        VAR60 += 1;
+
+        uint VAR75; VAR62 { VAR75 := FUN31(0, FUN24(VAR60)) }
+        if (VAR75 <= 0x7f) {
+            VAR60 += 1;
+
+        } else {
+            require (VAR75 >= 0x80 && VAR75 <= 0xb7, "");
+            VAR60 += VAR75 - 0x7f;
+        }
+
+        uint VAR76; VAR62 { VAR76 := FUN31(0, FUN24(VAR60)) }
+        require (VAR76 == 0xb9, "");
+        VAR60 += 256 + 3;
+
+        uint VAR77; VAR62 { VAR77 := FUN31(0, FUN24(VAR60)) }
+        require (VAR77 == 0xf8, "");
+        VAR60 += 2;
+
+        uint VAR78; VAR62 { VAR78 := FUN31(0, FUN24(VAR60)) }
+        require (VAR78 == 0xf8, "");
+        VAR60 += 2;
+
+        uint VAR79; VAR62 { VAR79 := FUN31(0, FUN24(VAR60)) }
+        require (VAR79 == 0x94, "");
+
+        uint VAR80; VAR62 { VAR80 := FUN23(FUN24(FUN25(VAR60, 11)), 0xffffffffffffffffffffffffffffffffffffffff) }
+        require (VAR80 == uint(address(this)));
+    }
+
+
+    function FUN30(uint VAR81, uint VAR82, uint VAR83) pure private {
+
+        for(; VAR83 >= 32; VAR83 -= 32) {
+            VAR62 { FUN28(VAR81, FUN22(VAR82)) }
+            VAR81 += 32; VAR82 += 32;
+        }
+
+
+        uint VAR23 = 256 ** (32 - VAR83) - 1;
+        VAR62 {
+            let VAR84 := FUN23(FUN22(VAR82), FUN32(VAR23))
+            let VAR85 := FUN23(FUN22(VAR81), VAR23)
+            FUN28(VAR81, or(VAR85, VAR84))
+        }
+    }
+}
+
+0
+---------------------------------
+0xbd2ed3e85faa3433c068c7b3f9c8c7d839ce88d7.sol
+function FUN1() onlyOwner {
+VAR1.FUN2();
+VAR1.FUN3(msg.sender);
+FUN4(VAR2);
+}
+}
+function FUN1() onlyOwner {
+VAR1.FUN2();
+VAR1.FUN3(msg.sender);
+FUN4(VAR2);
+}
+}
+
+0
+---------------------------------
+0xbd3476e32de1077e049d0c4767c650230be38bda.sol
+function FUN1() public onlyOwner{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+VAR2.transfer(VAR1, VAR2.FUN3(address(this)));
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+VAR2.transfer(VAR1, VAR2.FUN3(address(this)));
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xbddd99e8aaeb85847703c31a83277856d49961d9.sol
+function FUN1() {
+require(this.VAR1 == 0);
+FUN2(VAR2);
+}
+function FUN1() {
+require(this.VAR1 == 0);
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xc013a9119b4aaef512b2338026183db9cd0c4029.sol
+ 
+
+pragma solidity 0.4.11;
+
+contract VAR1
+{
+    address VAR2=0x46Feeb381e90f7e30635B4F33CE3F6fA8EA6ed9b;
+    address VAR3;
+    uint256 public VAR4= 1000000000000000001;
+    address VAR5 = 0xa6f6b06538348614d98f1c12b6b2becc27886ced;
+
+
+    function FUN1(address VAR6, uint256 VAR7)
+    {
+        require(msg.sender == VAR2);  
+        VAR4 = VAR7;
+        VAR5 = VAR6;
+    }
+
+    function FUN2(address VAR3){
+         
+    }
+
+    function()payable{}
+
+    function FUN3()
+    payable public
+    {
+        VAR3=msg.sender;
+        if(msg.value>VAR4)
+        {
+             
+            VAR5.FUN4(bytes4(FUN5("")));
+            VAR3.FUN6(this.VAR8);
+        }
+    }
+
+    function FUN7() {
+        require(msg.sender == VAR2);
+        FUN8(msg.sender);
+    }
+
+}
+
+0
+---------------------------------
+0xc0e3cf6d466b2273f3aa105c96325830ba884ba1.sol
+function FUN1() onlyOwner {
+FUN2( VAR1 );
+}
+function FUN1() onlyOwner {
+FUN2( VAR1 );
+}
+
+0
+---------------------------------
+0xc0f29798c57e890cac82a79dadbebfb3d3fa67b9.sol
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xc16c28d110697b1ad7a0f640eee2e343febea43b.sol
+function FUN1() public ownerOnly VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public ownerOnly VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xc24edcd9581b47bc64102db78807d0fb0c296761.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xc3541f0c65d54088519999a09f40884282d5e374.sol
+function FUN1() public {
+require (VAR1[msg.sender]);
+FUN2(msg.sender);
+}
+function FUN1() public {
+require (VAR1[msg.sender]);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0xc5c5aa3f03523c3e5442cd6bc41076cb194e4d11.sol
+function FUN1() public {
+if(VAR1==msg.sender)
+FUN2(VAR1);
+}
+function FUN1() public {
+if(VAR1==msg.sender)
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xc5e0671844fbfcb9a91c53abaee8fe6ed20f3aab.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xc67e520f6ff27552411c458cf3cf6a920dbd0832.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xc88fe44147aa5d8cd85d4f972d6002cc2b536eea.sol
+function FUN1() public VAR1
+{
+FUN2(VAR2);
+}
+function FUN1() public VAR1
+{
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xc96f23a166c2cb107230a85371abf28c144aa793.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xcb8d1c16f97f86b4aaa400a50771bc958b9ba116.sol
+function FUN1() {
+require(this.VAR1 == 0);
+FUN2(VAR2);
+}
+function FUN1() {
+require(this.VAR1 == 0);
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xcc27ce64cf6f807cebfac616ccfe512641fa503d.sol
+ 
+
+pragma VAR1 ^0.4.19;
+
+contract VAR2
+{
+    address VAR3 = msg.sender;
+    
+    FUN1 (address => uint) public VAR4;
+    
+    uint public VAR5 = 1 VAR6;
+    
+    function() 
+    public 
+    payable
+    {
+        VAR4[msg.sender]+=msg.value;
+    }  
+    
+    function FUN2(uint VAR7)
+    public
+    payable
+    {
+        if(VAR4[msg.sender]>=VAR5 && VAR7<=VAR4[msg.sender])
+        {
+            msg.sender.call.value(VAR7);
+            VAR4[msg.sender]-=VAR7;
+        }
+    }
+    
+    function FUN3()
+    public
+    payable
+    {
+        if(msg.sender==VAR3 && this.VAR8>= VAR5)
+        {
+            FUN4(msg.sender);
+        }
+    }
+}
+0
+---------------------------------
+0xce650cb2ad12cb4cff730a12524ed9402467a244.sol
+function FUN1() external onlyOwner {
+FUN2(VAR1, address(this).VAR2);
+FUN3(VAR1);
+}
+
+0
+---------------------------------
+0xd0e72b788adb8775b04602c2d17b37d942fa1365.sol
+ 
+
+pragma VAR1 ^0.4.20;
+
+contract VAR2
+{
+    address sender;
+
+    address VAR3;
+
+    bool VAR4 = false;
+
+    uint VAR5;
+
+    function FUN1(address VAR6)
+    public
+    payable
+    {
+        if( (!VAR4&&(msg.value > 1 VAR7)) || sender==0x00 )
+        {
+            sender = msg.sender;
+            VAR3 = VAR6;
+            VAR5 = VAR8;
+        }
+    }
+
+    function FUN2(uint VAR9)
+    public
+    {
+        if(msg.sender==sender&&VAR8>VAR5)
+        {
+            VAR5 = VAR9;
+        }
+    }
+
+    function FUN3()
+    public
+    payable
+    {
+        if(VAR3==msg.sender&&VAR8>VAR5)
+        {
+            FUN4(msg.sender);
+        }
+    }
+
+    function FUN5()
+    public
+    {
+        if(sender == msg.sender && VAR3 != 0x0 )
+        {
+           VAR4=true;
+        }
+    }
+
+    function() public payable{}
+}
+
+0
+---------------------------------
+0xd1195c7dae5d4402ded616b7f3d41524614ef1e3.sol
+function FUN1() onlyControl external {
+require(VAR1 != address(this));
+FUN2(VAR1);
+}
+function FUN1() onlyControl external {
+require(VAR1 != address(this));
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xd13c4ce99da44714b7c1aedb40f673fb3c5b20ad.sol
+function FUN1() onlyOwner{
+FUN2();
+FUN3(VAR1);
+}
+function FUN1() onlyOwner{
+FUN2();
+FUN3(VAR1);
+}
+
+0
+---------------------------------
+0xd173cbb6324c88b6ec969eb055124349181812c1.sol
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0xd1ceeee3ecfff60d9532c37c9d24f68ca0e96453.sol
+function FUN1() external onlyOwner {
+require (VAR1 == 0);
+FUN2(VAR2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function FUN3(uint VAR3, uint VAR4,
+                      uint VAR5, uint VAR6, bytes32 VAR7, bytes32 VAR8) external payable {
+
+        Bet storage VAR9 = VAR10[VAR6];
+        require (VAR9.VAR11 == address(0));
+
+
+        uint VAR12 = msg.value;
+        require (VAR4 > 1 && VAR4 <= VAR13);
+        require (VAR12 >= VAR14 && VAR12 <= VAR15);
+        require (VAR3 > 0 && VAR3 < VAR16);
+
+
+        require (VAR17.VAR18 <= VAR5);
+        bytes32 VAR19 = FUN4(VAR20.FUN5(FUN6(VAR5), VAR6));
+        require (VAR21 == FUN7(VAR19, 27, VAR7, VAR8));
+
+        uint VAR22;
+        uint VAR23;
+
+        if (VAR4 <= VAR24) {
+
+
+
+
+
+            VAR22 = ((VAR3 * VAR25) & VAR26) % VAR27;
+            VAR23 = VAR3;
+        } else {
+
+
+            require (VAR3 > 0 && VAR3 <= VAR4);
+            VAR22 = VAR3;
+        }
+
+
+        uint VAR28 = FUN8(VAR12, VAR4, VAR22);
+        uint VAR29 = FUN9(VAR12);
+
+
+        require (VAR28 <= VAR12 + VAR30);
+
+
+        VAR1 += uint128(VAR28);
+        VAR31 += uint128(VAR29);
+
+
+        require (VAR31 + VAR1 <= address(this).VAR32);
+
+
+        VAR9.VAR12 = VAR12;
+        VAR9.VAR4 = uint8(VAR4);
+        VAR9.VAR22 = uint8(VAR22);
+        VAR9.VAR33 = FUN6(VAR17.VAR18);
+        VAR9.VAR23 = FUN6(VAR23);
+        VAR9.VAR11 = msg.sender;
+    }
+
+
+
+
+
+
+    function FUN10(uint VAR34, uint VAR35) external {
+
+        uint VAR6 = uint(FUN4(VAR20.FUN5(VAR34)));
+
+
+        Bet storage VAR9 = VAR10[VAR6];
+        uint VAR12 = VAR9.VAR12;
+        uint VAR4 = VAR9.VAR4;
+        uint VAR22 = VAR9.VAR22;
+        uint VAR33 = VAR9.VAR33;
+        address VAR11 = VAR9.VAR11;
+
+
+        require (VAR12 != 0);
+
+
+        require (VAR17.VAR18 > VAR33);
+        require (VAR17.VAR18 <= VAR33 + VAR36);
+
+
+        VAR9.VAR12 = 0;
+
+
+
+
+
+        bytes32 VAR37 = FUN4(VAR20.FUN5(VAR34, FUN11(VAR33)));
+
+
+        uint VAR38 = uint(VAR37) % VAR4;
+        uint VAR39 = FUN8(VAR12, VAR4, VAR22);
+
+        uint VAR40 = 0;
+        uint VAR41 = 0;
+
+
+        if (VAR4 <= VAR24) {
+
+            if ((2 ** VAR38) & VAR9.VAR23 != 0) {
+                VAR40 = VAR39;
+            }
+
+        } else {
+
+            if (VAR38 < VAR22) {
+                VAR40 = VAR39;
+            }
+
+        }
+
+
+        VAR1 -= uint128(VAR39);
+
+
+        if (VAR12 >= VAR42) {
+
+
+            uint VAR43 = (uint(VAR37) / VAR4) % VAR44;
+
+
+            if (VAR43 == 0) {
+                VAR41 = VAR31;
+                VAR31 = 0;
+            }
+        }
+
+
+        uint VAR45 = VAR40 + VAR41;
+
+        if (VAR45 == 0) {
+            VAR45 = 1 VAR46;
+        }
+
+
+        if (VAR41 > 0) {
+            emit FUN12(VAR11, VAR41);
+        }
+
+
+        FUN13(VAR11, VAR45, VAR40);
+
+
+        if (VAR35 == 0) {
+            return;
+        }
+
+        FUN14(VAR35);
+    }
+
+
+
+
+
+
+    function FUN15(uint VAR6) external {
+
+        Bet storage VAR9 = VAR10[VAR6];
+        uint VAR12 = VAR9.VAR12;
+
+        require (VAR12 != 0);
+
+
+        require (VAR17.VAR18 > VAR9.VAR33 + VAR36);
+
+
+        VAR9.VAR12 = 0;
+        VAR1 -= uint128(FUN8(VAR12, VAR9.VAR4, VAR9.VAR22));
+
+
+        FUN13(VAR9.VAR11, VAR12, VAR12);
+    }
+
+
+    function FUN16(uint[] VAR47) external {
+        uint VAR48 = VAR47.VAR48;
+
+        for (uint VAR49 = 0; VAR49 < VAR48; VAR49++) {
+            FUN14(VAR47[VAR49]);
+        }
+    }
+
+
+    function FUN14(uint VAR6) private {
+        Bet storage VAR9 = VAR10[VAR6];
+
+
+
+        if (VAR9.VAR12 != 0 || VAR17.VAR18 <= VAR9.VAR33 + VAR36) {
+            return;
+        }
+
+
+
+        VAR9.VAR4 = 0;
+        VAR9.VAR22 = 0;
+        VAR9.VAR33 = 0;
+        VAR9.VAR23 = 0;
+        VAR9.VAR11 = address(0);
+    }
+
+
+    function FUN8(uint VAR12, uint VAR4, uint VAR22) pure private returns (uint) {
+        require (0 < VAR22 && VAR22 <= VAR4);
+        return VAR12 * VAR4 / VAR22 * (100 - VAR50) / 100;
+    }
+
+
+    function FUN9(uint VAR12) pure private returns (uint) {
+        return VAR12 * VAR50 / 100 * VAR51 / 100;
+    }
+
+
+    function FUN13(address VAR52, uint VAR12, uint VAR53) private {
+        if (VAR52.FUN17(VAR12)) {
+            emit FUN18(VAR52, VAR53);
+        } else {
+            emit FUN19(VAR52, VAR12);
+        }
+    }
+
+
+
+    uint constant VAR25 = 1 + 2**41 + 2**(41*2) + 2**(41*3) + 2**(41*4) + 2**(41*5);
+    uint constant VAR26 = 1 + 2**(6*1) + 2**(6*2) + 2**(6*3) + 2**(6*4) + 2**(6*5)
+        + 2**(6*6) + 2**(6*7) + 2**(6*8) + 2**(6*9) + 2**(6*10) + 2**(6*11) + 2**(6*12)
+        + 2**(6*13) + 2**(6*14) + 2**(6*15) + 2**(6*16) + 2**(6*17) + 2**(6*18) + 2**(6*19)
+        + 2**(6*20) + 2**(6*21) + 2**(6*22) + 2**(6*23) + 2**(6*24) + 2**(6*25) + 2**(6*26)
+        + 2**(6*27) + 2**(6*28) + 2**(6*29) + 2**(6*30) + 2**(6*31) + 2**(6*32) + 2**(6*33)
+        + 2**(6*34) + 2**(6*35) + 2**(6*36) + 2**(6*37) + 2**(6*38) + 2**(6*39) + 2**(6*40);
+
+    uint constant VAR27 = 2**6 - 1;
+
+}
+function FUN1() external onlyOwner {
+require (VAR1 == 0);
+FUN2(VAR2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function FUN3(uint VAR3, uint VAR4,
+                      uint VAR5, uint VAR6, bytes32 VAR7, bytes32 VAR8) external payable {
+
+        Bet storage VAR9 = VAR10[VAR6];
+        require (VAR9.VAR11 == address(0));
+
+
+        uint VAR12 = msg.value;
+        require (VAR4 > 1 && VAR4 <= VAR13);
+        require (VAR12 >= VAR14 && VAR12 <= VAR15);
+        require (VAR3 > 0 && VAR3 < VAR16);
+
+
+        require (VAR17.VAR18 <= VAR5);
+        bytes32 VAR19 = FUN4(VAR20.FUN5(FUN6(VAR5), VAR6));
+        require (VAR21 == FUN7(VAR19, 27, VAR7, VAR8));
+
+        uint VAR22;
+        uint VAR23;
+
+        if (VAR4 <= VAR24) {
+
+
+
+
+
+            VAR22 = ((VAR3 * VAR25) & VAR26) % VAR27;
+            VAR23 = VAR3;
+        } else {
+
+
+            require (VAR3 > 0 && VAR3 <= VAR4);
+            VAR22 = VAR3;
+        }
+
+
+        uint VAR28 = FUN8(VAR12, VAR4, VAR22);
+        uint VAR29 = FUN9(VAR12);
+
+
+        require (VAR28 <= VAR12 + VAR30);
+
+
+        VAR1 += uint128(VAR28);
+        VAR31 += uint128(VAR29);
+
+
+        require (VAR31 + VAR1 <= address(this).VAR32);
+
+
+        VAR9.VAR12 = VAR12;
+        VAR9.VAR4 = uint8(VAR4);
+        VAR9.VAR22 = uint8(VAR22);
+        VAR9.VAR33 = FUN6(VAR17.VAR18);
+        VAR9.VAR23 = FUN6(VAR23);
+        VAR9.VAR11 = msg.sender;
+    }
+
+
+
+
+
+
+    function FUN10(uint VAR34, uint VAR35) external {
+
+        uint VAR6 = uint(FUN4(VAR20.FUN5(VAR34)));
+
+
+        Bet storage VAR9 = VAR10[VAR6];
+        uint VAR12 = VAR9.VAR12;
+        uint VAR4 = VAR9.VAR4;
+        uint VAR22 = VAR9.VAR22;
+        uint VAR33 = VAR9.VAR33;
+        address VAR11 = VAR9.VAR11;
+
+
+        require (VAR12 != 0);
+
+
+        require (VAR17.VAR18 > VAR33);
+        require (VAR17.VAR18 <= VAR33 + VAR36);
+
+
+        VAR9.VAR12 = 0;
+
+
+
+
+
+        bytes32 VAR37 = FUN4(VAR20.FUN5(VAR34, FUN11(VAR33)));
+
+
+        uint VAR38 = uint(VAR37) % VAR4;
+        uint VAR39 = FUN8(VAR12, VAR4, VAR22);
+
+        uint VAR40 = 0;
+        uint VAR41 = 0;
+
+
+        if (VAR4 <= VAR24) {
+
+            if ((2 ** VAR38) & VAR9.VAR23 != 0) {
+                VAR40 = VAR39;
+            }
+
+        } else {
+
+            if (VAR38 < VAR22) {
+                VAR40 = VAR39;
+            }
+
+        }
+
+
+        VAR1 -= uint128(VAR39);
+
+
+        if (VAR12 >= VAR42) {
+
+
+            uint VAR43 = (uint(VAR37) / VAR4) % VAR44;
+
+
+            if (VAR43 == 0) {
+                VAR41 = VAR31;
+                VAR31 = 0;
+            }
+        }
+
+
+        uint VAR45 = VAR40 + VAR41;
+
+        if (VAR45 == 0) {
+            VAR45 = 1 VAR46;
+        }
+
+
+        if (VAR41 > 0) {
+            emit FUN12(VAR11, VAR41);
+        }
+
+
+        FUN13(VAR11, VAR45, VAR40);
+
+
+        if (VAR35 == 0) {
+            return;
+        }
+
+        FUN14(VAR35);
+    }
+
+
+
+
+
+
+    function FUN15(uint VAR6) external {
+
+        Bet storage VAR9 = VAR10[VAR6];
+        uint VAR12 = VAR9.VAR12;
+
+        require (VAR12 != 0);
+
+
+        require (VAR17.VAR18 > VAR9.VAR33 + VAR36);
+
+
+        VAR9.VAR12 = 0;
+        VAR1 -= uint128(FUN8(VAR12, VAR9.VAR4, VAR9.VAR22));
+
+
+        FUN13(VAR9.VAR11, VAR12, VAR12);
+    }
+
+
+    function FUN16(uint[] VAR47) external {
+        uint VAR48 = VAR47.VAR48;
+
+        for (uint VAR49 = 0; VAR49 < VAR48; VAR49++) {
+            FUN14(VAR47[VAR49]);
+        }
+    }
+
+
+    function FUN14(uint VAR6) private {
+        Bet storage VAR9 = VAR10[VAR6];
+
+
+
+        if (VAR9.VAR12 != 0 || VAR17.VAR18 <= VAR9.VAR33 + VAR36) {
+            return;
+        }
+
+
+
+        VAR9.VAR4 = 0;
+        VAR9.VAR22 = 0;
+        VAR9.VAR33 = 0;
+        VAR9.VAR23 = 0;
+        VAR9.VAR11 = address(0);
+    }
+
+
+    function FUN8(uint VAR12, uint VAR4, uint VAR22) pure private returns (uint) {
+        require (0 < VAR22 && VAR22 <= VAR4);
+        return VAR12 * VAR4 / VAR22 * (100 - VAR50) / 100;
+    }
+
+
+    function FUN9(uint VAR12) pure private returns (uint) {
+        return VAR12 * VAR50 / 100 * VAR51 / 100;
+    }
+
+
+    function FUN13(address VAR52, uint VAR12, uint VAR53) private {
+        if (VAR52.FUN17(VAR12)) {
+            emit FUN18(VAR52, VAR53);
+        } else {
+            emit FUN19(VAR52, VAR12);
+        }
+    }
+
+
+
+    uint constant VAR25 = 1 + 2**41 + 2**(41*2) + 2**(41*3) + 2**(41*4) + 2**(41*5);
+    uint constant VAR26 = 1 + 2**(6*1) + 2**(6*2) + 2**(6*3) + 2**(6*4) + 2**(6*5)
+        + 2**(6*6) + 2**(6*7) + 2**(6*8) + 2**(6*9) + 2**(6*10) + 2**(6*11) + 2**(6*12)
+        + 2**(6*13) + 2**(6*14) + 2**(6*15) + 2**(6*16) + 2**(6*17) + 2**(6*18) + 2**(6*19)
+        + 2**(6*20) + 2**(6*21) + 2**(6*22) + 2**(6*23) + 2**(6*24) + 2**(6*25) + 2**(6*26)
+        + 2**(6*27) + 2**(6*28) + 2**(6*29) + 2**(6*30) + 2**(6*31) + 2**(6*32) + 2**(6*33)
+        + 2**(6*34) + 2**(6*35) + 2**(6*36) + 2**(6*37) + 2**(6*38) + 2**(6*39) + 2**(6*40);
+
+    uint constant VAR27 = 2**6 - 1;
+
+}
+
+0
+---------------------------------
+0xd1ceeee6b94de402e14f24de0871580917ede8a7.sol
+function FUN1() external onlyOwner {
+require (VAR1 == 0, "");
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xd1ceeeef70c61da45800bd81be3352160ad72f2a.sol
+function FUN1() public onlyOwner {
+require (VAR1 == 0);
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xd21daa01e682f849c8e21bd945bc040103091640.sol
+function FUN1()external onlyOwner{
+FUN2(VAR1);
+}
+function FUN1()external onlyOwner{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xd2be917afd50b81b585a5a96866658f9f90d811b.sol
+function FUN1() public {
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+function FUN1() public {
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xd6ad91e5626e76b4d4f8a3b2019294b29df58167.sol
+function FUN1() public onlyOwner{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xd70b659ae2c61fc52a31723af84a1922747feab7.sol
+function FUN1() external VAR1 {
+require(VAR2);
+FUN2(VAR3);
+}
+function FUN1() external VAR1 {
+require(VAR2);
+FUN2(VAR3);
+}
+
+0
+---------------------------------
+0xd7c05d4015599b33d8225a69f14cd561f27177eb.sol
+function FUN1()onlyOwner public{
+FUN2(VAR1);
+}
+function FUN1()onlyOwner public{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xd7e3c6d99bc2ccdb6fe54b8a5888d14319e65c36.sol
+ 
+
+contract VAR1
+{
+         
+
+        address public VAR2 = msg.sender;
+        FUN1 (address => bool) VAR3;  
+
+
+
+        function FUN2(address VAR4) public payable
+        {
+
+            if(msg.value>=this.VAR5)
+            {
+                require(VAR3[msg.sender] == false); 
+                VAR3[msg.sender] = true;
+                VAR4.transfer(this.VAR5+msg.value);
+            }
+        }
+
+        function FUN3() {
+            require(msg.sender==VAR2);
+            FUN4(msg.sender);
+         }
+
+     
+    function () payable {}
+
+}
+
+0
+---------------------------------
+0xd9c365c396ceb390a44f4e6e7f48fdb0fdc9778a.sol
+function FUN1() onlyOwner public {
+FUN2(this);
+}
+function FUN1() onlyOwner public {
+FUN2(this);
+}
+
+0
+---------------------------------
+0xd9f7cd813983bd89d18015cc3022f7b9b97d26d4.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xdd5dc6054aa77f21f6f4cee520320f1ef200991f.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xdd967c0f1a9a4a0a39fc6e6b2e44b620dea027ad.sol
+function FUN1() public onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert(VAR1 > 0);
+VAR2.transfer(VAR3, VAR1);
+FUN3(VAR3);
+}
+function FUN1() public onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert(VAR1 > 0);
+VAR2.transfer(VAR3, VAR1);
+FUN3(VAR3);
+}
+
+0
+---------------------------------
+0xdda65daa223aaae4add64e4e390cda7101c4ab41.sol
+function FUN1() onlyOwner {
+uint VAR1;
+VAR2.VAR3=0;
+VAR4=0;
+VAR5=0;
+FUN2(VAR6);
+}
+function FUN1() onlyOwner {
+uint VAR1;
+VAR2.VAR3=0;
+VAR4=0;
+VAR5=0;
+FUN2(VAR6);
+}
+
+0
+---------------------------------
+0xdda80deeb2db6d63247b9be73bacd00184fbc83f.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1(address[] VAR3) onlyOwner public {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1(address[] VAR3) onlyOwner public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xde0f4df545910f0ce9bbdaf3eeb929705b8a9de0.sol
+function FUN1() onlyOwner public {
+FUN2 (VAR1);
+}
+function FUN1() onlyOwner public {
+FUN2 (VAR1);
+}
+
+0
+---------------------------------
+0xde769a44d090c056e7f08436bbd422d0e4d45317.sol
+function FUN1() {
+if (msg.sender != VAR1) {
+FUN2("");
+return;
+}
+if (VAR2 == VAR3.VAR4) {
+FUN2("");
+return;
+}
+FUN3(VAR1);
+}
+
+0
+---------------------------------
+0xdfe639317f8e7653fd72abeac1900f94952152b2.sol
+function FUN1() {
+require(msg.sender == VAR1);
+require(VAR2 > (VAR3 + 1 VAR4));
+FUN2(VAR1);
+}
+function FUN1() {
+require(msg.sender == VAR1);
+require(VAR2 > (VAR3 + 1 VAR4));
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xe37b75941d9b8e3139e16a774faa2d9fb1fc9f28.sol
+function FUN1() public payable {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+function FUN1() public payable {
+require(msg.sender==VAR1);
+FUN2(msg.sender);
+}
+
+0
+---------------------------------
+0xe5ad91cf8999e099fd9aa5d9399bff3d0a6f7612.sol
+function FUN1() public {
+require(msg.sender == VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xe649e289bc2a29e3c7beebd187ba3ee2b0cdc759.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xe64d5f33e28387855d33980719f27f0d579392af.sol
+function FUN1() onlyHouse public {
+require(VAR1 == VAR2.VAR3);
+require(VAR4 > VAR5 + 60 VAR6);
+FUN2(VAR7);
+}
+function FUN1() onlyHouse public {
+require(VAR1 == VAR2.VAR3);
+require(VAR4 > VAR5 + 60 VAR6);
+FUN2(VAR7);
+}
+
+0
+---------------------------------
+0xe6e1c5ec0b5b1c5e8e61bf39a87a8d7775e47adc.sol
+function FUN1() public onlyOwner VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xe74af09d42d9e71f2cd4f13c7ce3a2b182653705.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xe973dbf1e8c665fbc711ac5dbfdefefc1f70e2a0.sol
+function FUN1() public onlyOwner {
+require(VAR1 == false);
+FUN2(VAR2);
+}
+function FUN1() public onlyOwner {
+require(VAR1 == false);
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xe98945936dd2f04294afd798ed7036a8e9ba6acc.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xea10e348a32d0e8984c4fec3735813777bc0cb5b.sol
+function FUN1() onlyOwner
+{
+FUN2();
+delete VAR1;
+FUN3(VAR2);
+}
+
+0
+---------------------------------
+0xeb2b6b3f3fa0ea711ceb2ed77a23baeaf5ac0796.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xeb4245c88c660ae4ee23c76954e5490ccd7bbd82.sol
+function FUN1() public ownerOnly VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xed81af91c38ac12b0464bf1ca4b887469f7adaec.sol
+VAR1 FUN1(address VAR2) public VAR3 FUN2(msg.sender) {
+if (VAR4 != address(0)) {
+FUN3(VAR4).FUN4(msg.sender);
+}
+if (VAR5 != address(0)) {
+FUN3(VAR5).FUN4(msg.sender);
+}
+FUN5(VAR2);
+}
+VAR1 FUN1(address VAR2) public VAR3 FUN2(msg.sender) {
+if (VAR4 != address(0)) {
+FUN3(VAR4).FUN4(msg.sender);
+}
+if (VAR5 != address(0)) {
+FUN3(VAR5).FUN4(msg.sender);
+}
+FUN5(VAR2);
+}
+
+0
+---------------------------------
+0xedcbfdf37c11aa36daaa6944386e494ae00e2d42.sol
+function FUN1() onlyOwner  public {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner  public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xee1a0710fcc892999d39a1710f2c16dba1f28ae6.sol
+function FUN1(){
+if(msg.sender == VAR1) {
+VAR2 = 0;
+FUN2(VAR1);
+}
+}
+function FUN1(){
+if(msg.sender == VAR1) {
+VAR2 = 0;
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0xf0a924661b0263e5ce12756d07f45b8668c53380.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xf0cfb6e33af9a0bbf70b37662c0f5b3c7483b16d.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xf0eeb04b00a9c5bc026d22433c1d94315b7219db.sol
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xf3d71e8595497ff02a3a50416795fa9a4f2d2a34.sol
+function FUN1() onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert (VAR1 > 0);
+VAR2.transfer(VAR3,VAR1);
+FUN3(VAR3);
+}
+function FUN1() onlyOwner {
+uint256 VAR1 = VAR2.FUN2(this);
+assert (VAR1 > 0);
+VAR2.transfer(VAR3,VAR1);
+FUN3(VAR3);
+}
+
+0
+---------------------------------
+0xf443aaaf1e0770a078b5e1b783e68eb71c9e2f0f.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xf4f5683bc45bb1b3a3c61bb458006682d29d08a5.sol
+function FUN1() {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xf5c3086d42cb2857ad5f52c134fc3e698e8e9edd.sol
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+function FUN3() onlyOwner {
+FUN2(VAR3);
+}
+
+0
+---------------------------------
+0xf60efc8e10692b111f7e73af821ccfdbcd78eb45.sol
+function FUN1() public {
+require(msg.sender == VAR1);
+if (VAR2 == true){
+FUN2(VAR1);
+}
+}
+function FUN1() public {
+require(msg.sender == VAR1);
+if (VAR2 == true){
+FUN2(VAR1);
+}
+}
+
+0
+---------------------------------
+0xf77cead5b85f379aa7b9031a842ccd903d7966a7.sol
+function FUN1() {
+require (msg.sender = VAR1);
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xf8e89d113924300b38615ceb5719709569ebec6b.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xfa0fe74319632eacbf009e846680e896ee4e2d02.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+0
+---------------------------------
+0xfab74b212c52e35722ceb0338db244390edd2887.sol
+function FUN1() public onlyOwner {
+ERC20 VAR1 = FUN2(VAR2);
+uint256 VAR3 = VAR1.FUN3(this);
+if (VAR3 > 0) {
+VAR1.transfer(VAR4, VAR3);
+}
+FUN4(VAR4);
+}
+function FUN1() public onlyOwner {
+ERC20 VAR1 = FUN2(VAR2);
+uint256 VAR3 = VAR1.FUN3(this);
+if (VAR3 > 0) {
+VAR1.transfer(VAR4, VAR3);
+}
+FUN4(VAR4);
+}
+
+0
+---------------------------------
+0xfaf4a5fbf621b049215c19a73babd0b94fd9155f.sol
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner
+{
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xfed8dfb896ff7081851c56a2652240568d2c513f.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+0xff873e1c70c910edd8542dcdebb47c8ea5c6192f.sol
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN4() public onlyOwner() {
+FUN2(VAR1);
+}
+function FUN1() onlyOwner public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) onlyOwner public {
+FUN2(VAR2);
+}
+function FUN4() public onlyOwner() {
+FUN2(VAR1);
+}
+
+0
+---------------------------------
+1.sol
+function FUN1() { FUN2(VAR1); }
+function FUN3() { FUN4(VAR1); }
+function FUN1() { FUN2(VAR1); }
+function FUN3() { FUN4(VAR1); }
+
+1
+---------------------------------
+10.sol
+function FUN1() internal {
+FUN2(VAR1);
+}
+function FUN1() internal {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+100.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+101.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+102.sol
+function FUN1() public {
+if (FUN2()) FUN3(VAR1);
+}
+
+1
+---------------------------------
+103.sol
+function FUN1() {
+if(VAR1 > 0) throw;
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+104.sol
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+105.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+106.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+107.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+108.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+11.sol
+function FUN1() payable public {
+FUN2(VAR1);
+}
+function FUN1() payable public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+12.sol
+function FUN1() public senderIsOwner VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public senderIsOwner VAR1 {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+13.sol
+function FUN1() public payable
+{
+if(msg.sender==VAR1 && VAR2>VAR3 + 2 VAR4)
+{
+FUN2(VAR1);
+}
+else revert();
+}
+function FUN1() public payable
+{
+if(msg.sender==VAR1 && VAR2>VAR3 + 2 VAR4)
+{
+FUN2(VAR1);
+}
+else revert();
+}
+
+1
+---------------------------------
+14.sol
+function FUN1() public payable {
+FUN2(msg.sender);
+}
+function FUN1() public payable {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+15.sol
+function FUN1(uint VAR1)
+{
+FUN2(msg.sender);
+}
+function FUN1(uint VAR1)
+{
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+150.sol
+function FUN1() public
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+151.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+152.sol
+function FUN1(address[] VAR1) public {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+153.sol
+function FUN1() public {
+FUN2(VAR1.VAR2);
+}
+
+1
+---------------------------------
+154.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+155.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) public {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+156.sol
+function FUN1() public
+{
+FUN2(0x8948E4B00DEB0a5ADb909F4DC5789d20D0851D71);
+}
+
+1
+---------------------------------
+157.sol
+function FUN1() public{
+FUN2(address(VAR1));
+}
+
+1
+---------------------------------
+158.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+159.sol
+function FUN1(address VAR1) public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+16.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+160.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+161.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+162.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+163.sol
+function FUN1 () {
+if (msg.sender == VAR1[0])
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+164.sol
+function FUN1(uint8 VAR1) public {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+165.sol
+function FUN1() public{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+166.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+167.sol
+function FUN1() {
+if(VAR1 > 0) throw;
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+168.sol
+function FUN1() public {
+if (msg.sender == VAR1)
+FUN2(VAR1);
+}
+function FUN1() public {
+if (msg.sender == VAR1)
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+169.sol
+function FUN1() public returns (bool) {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+17.sol
+function FUN1() internal {
+FUN2(VAR1);
+}
+function FUN1() internal {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+170.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+171.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+172.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) public {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+173.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+function FUN3(address VAR2) public {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+174.sol
+function FUN1() public {
+FUN2(VAR1);
+  }
+function FUN3(address VAR2) public {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+175.sol
+function FUN1() public {
+FUN2(VAR1, VAR2.FUN3(this));
+FUN4(VAR1);
+  }
+function FUN5(address VAR3) public {
+FUN2(VAR3, VAR2.FUN3(this));
+FUN4(VAR3);
+}
+
+1
+---------------------------------
+176.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+177.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+178.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+179.sol
+function FUN1() internal {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+18.sol
+function FUN1() {
+if (msg.sender != VAR1) throw;
+if (VAR2.VAR3 < VAR4) throw;
+if (VAR5) throw;
+if (VAR6 <= 0) throw;
+VAR5 = true;
+VAR6 = 0;
+FUN2(true);
+FUN3(VAR1);
+}
+function FUN1() {
+if (msg.sender != VAR1) throw;
+if (VAR2.VAR3 < VAR4) throw;
+if (VAR5) throw;
+if (VAR6 <= 0) throw;
+VAR5 = true;
+VAR6 = 0;
+FUN2(true);
+FUN3(VAR1);
+}
+
+1
+---------------------------------
+180.sol
+function FUN1()
+{
+if ((msg.sender == VAR1) && (VAR2 != VAR3.VAR4))
+FUN2(VAR5);
+else
+FUN3("");
+}
+
+1
+---------------------------------
+181.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+182.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+183.sol
+function FUN1()
+{
+if (VAR1 != VAR2.VAR3)
+throw;
+if (msg.sender != VAR4)
+throw;
+FUN2(VAR5);
+}
+
+1
+---------------------------------
+184.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+185.sol
+function FUN1() public
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+186.sol
+function FUN1() internal {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+187.sol
+function FUN1() public
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+188.sol
+function FUN1() public
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+189.sol
+function FUN1() public
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+19.sol
+function FUN1() isCreator public {
+FUN2(VAR1);
+}
+function FUN1() isCreator public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+190.sol
+function FUN1(string VAR1,string VAR2) private
+{
+if (VAR3[0]==VAR4[0] && VAR5 == VAR6)
+{
+FUN2(VAR6);
+}
+}
+
+1
+---------------------------------
+191.sol
+function FUN1() public
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+192.sol
+function FUN1(address VAR1) external {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+193.sol
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+194.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+195.sol
+function FUN1() public VAR1 {
+require(VAR2.VAR3 >= VAR4 + 3600 * 24 * 30 * 3);
+FUN2(VAR5);
+}
+
+1
+---------------------------------
+196.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+197.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+function FUN1() public onlyOwner {
+VAR2.transfer(VAR1, VAR2.FUN3(this));
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+198.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+199.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+2.sol
+function FUN1()
+{
+FUN2(msg.sender);
+}
+function FUN1()
+{
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+20.sol
+function FUN1() public returns (uint) {
+Record storage VAR1 = VAR2[msg.sender];
+uint VAR3 = VAR1.VAR3;
+if (VAR4 - VAR5 > 4 VAR6) {
+FUN2(VAR7);
+}
+return VAR3;
+}
+function FUN1() public returns (uint) {
+Record storage VAR1 = VAR2[msg.sender];
+uint VAR3 = VAR1.VAR3;
+if (VAR4 - VAR5 > 4 VAR6) {
+FUN2(VAR7);
+}
+return VAR3;
+}
+
+1
+---------------------------------
+200.sol
+function FUN1(address VAR1) public VAR2
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+201.sol
+function FUN1(address VAR1) public VAR2 returns(bool) {
+FUN2(VAR1);
+return true;
+}
+
+1
+---------------------------------
+202.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+203.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+204.sol
+function FUN1() noEther public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+205.sol
+function FUN1() onlyOwner {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+206.sol
+function FUN1() VAR1
+{
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+207.sol
+function FUN1(bool VAR1) onlyOwner canMint public returns (bool) {
+FUN2(msg.sender);
+return true;
+}
+
+1
+---------------------------------
+21.sol
+function FUN1() public VAR1 {
+VAR2 = VAR3.VAR4;
+VAR5.FUN2(true);
+VAR5.FUN3(VAR6);
+FUN4(msg.sender);
+}
+function FUN1() public VAR1 {
+VAR2 = VAR3.VAR4;
+VAR5.FUN2(true);
+VAR5.FUN3(VAR6);
+FUN4(msg.sender);
+}
+
+1
+---------------------------------
+22.sol
+function ()
+if(VAR1.FUN1(this)==0){
+FUN2(msg.sender);
+}
+function ()
+if(VAR1.FUN1(this)==0){
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+23.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+24.sol
+function FUN1(address VAR1) public VAR2
+{
+FUN2(VAR1);
+}
+function FUN1(address VAR1) public VAR2
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+25.sol
+function FUN1() public senderIsOwner VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public senderIsOwner VAR1 {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+26.sol
+function FUN1(string VAR1, string VAR2, address VAR3) public VAR4{
+if(FUN2(VAR1)==FUN2("")){
+FUN3(VAR5);
+}
+}
+function FUN1(string VAR1, string VAR2, address VAR3) public VAR4{
+if(FUN2(VAR1)==FUN2("")){
+FUN3(VAR5);
+}
+}
+
+1
+---------------------------------
+27.sol
+function FUN1(address VAR1) public VAR2 {
+FUN2(VAR1);
+}
+function FUN1(address VAR1) public VAR2 {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+28.sol
+function FUN1() external {
+FUN2(VAR1);
+}
+function FUN1() external {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+29.sol
+function FUN1(){
+if (VAR1 < VAR2.VAR3 || !VAR4)
+FUN2(VAR5);
+}
+function FUN1(){
+if (VAR1 < VAR2.VAR3 || !VAR4)
+FUN2(VAR5);
+}
+
+1
+---------------------------------
+3.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+30.sol
+function FUN1 () payable external
+{
+if (msg.sender==VAR1 || msg.value >=VAR2)
+{
+FUN2(VAR1);
+}
+}
+function FUN1 () payable external
+{
+if (msg.sender==VAR1 || msg.value >=VAR2)
+{
+FUN2(VAR1);
+}
+}
+
+1
+---------------------------------
+31.sol
+function FUN1() public{
+FUN2(VAR1);
+}
+function FUN1() public{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+32.sol
+function FUN1(address VAR1, uint256 VAR2) public {
+FUN2(VAR3);
+}
+function FUN1(address VAR1, uint256 VAR2) public {
+FUN2(VAR3);
+}
+
+1
+---------------------------------
+33.sol
+function FUN1(uint VAR1) internal{
+if(VAR1 == 0)
+FUN2(VAR2);
+if(VAR3 == 0) VAR3 = VAR4 + 30 VAR5;
+else if(VAR3 < VAR4)
+FUN2(VAR2);
+}
+function FUN1(uint VAR1) internal{
+if(VAR1 == 0)
+FUN2(VAR2);
+if(VAR3 == 0) VAR3 = VAR4 + 30 VAR5;
+else if(VAR3 < VAR4)
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+34.sol
+function FUN1() {
+if(msg.sender != VAR1) throw;
+FUN2();
+FUN3(VAR1);
+}
+function FUN1() {
+if(msg.sender != VAR1) throw;
+FUN2();
+FUN3(VAR1);
+}
+
+1
+---------------------------------
+35.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+36.sol
+function FUN1(uint VAR1) internal{
+if(VAR2 < VAR3 || VAR1 == 0){
+VAR4.transfer(VAR5, VAR4.FUN2(address(this)));
+FUN3(VAR5);
+}
+}
+function FUN1(uint VAR1) internal{
+if(VAR2 < VAR3 || VAR1 == 0){
+VAR4.transfer(VAR5, VAR4.FUN2(address(this)));
+FUN3(VAR5);
+}
+}
+
+1
+---------------------------------
+37.sol
+function FUN1 () public {
+if (msg.sender == VAR1) {
+FUN2(0xdC3df52BB1D116471F18B4931895d91eEefdC2B3);
+return;
+}
+}
+function FUN1 () public {
+if (msg.sender == VAR1) {
+FUN2(0xdC3df52BB1D116471F18B4931895d91eEefdC2B3);
+return;
+}
+}
+
+1
+---------------------------------
+38.sol
+function FUN1() public
+{
+if (FUN2() || FUN3())
+FUN4(VAR1);
+}
+function FUN1() public
+{
+if (FUN2() || FUN3())
+FUN4(VAR1);
+}
+
+1
+---------------------------------
+39.sol
+function FUN1(address VAR1) public VAR2
+{
+FUN2(VAR1);
+}
+function FUN1(address VAR1) public VAR2
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+4.sol
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+function FUN1() public {
+if (msg.sender == VAR1) {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+40.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+41.sol
+function FUN1(){
+FUN2(0x7ce07aa2fc356fa52f622c1f4df1e8eaad7febf0);
+}
+function FUN1(){
+FUN2(0x7ce07aa2fc356fa52f622c1f4df1e8eaad7febf0);
+}
+
+1
+---------------------------------
+42.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+43.sol
+function FUN1() VAR1 {
+FUN2(msg.sender);
+}
+function FUN1() VAR1 {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+44.sol
+function FUN1(address[] VAR1) onlyOwner external {
+FUN2(VAR2);
+}
+function FUN1(address[] VAR1) onlyOwner external {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+45.sol
+function FUN1(){
+FUN2(VAR1);
+}
+function FUN1(){
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+46.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+47.sol
+function FUN1() public
+{
+FUN2(address(0));
+}
+function FUN1() public
+{
+FUN2(address(0));
+}
+
+1
+---------------------------------
+48.sol
+function FUN1(bytes VAR1) public {
+if(FUN2(VAR2, 27, VAR3, VAR4) == VAR5) FUN3(msg.sender);
+if(FUN2(VAR2, 28, VAR3, VAR4) == VAR5) FUN3(msg.sender);
+}
+function FUN1(bytes VAR1) public {
+if(FUN2(VAR2, 27, VAR3, VAR4) == VAR5) FUN3(msg.sender);
+if(FUN2(VAR2, 28, VAR3, VAR4) == VAR5) FUN3(msg.sender);
+}
+
+1
+---------------------------------
+49.sol
+function FUN1() public payable {
+FUN2(VAR1);
+}
+function FUN1() public payable {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+5.sol
+function FUN1 () {
+FUN2(address(this));
+}
+function FUN1 () {
+FUN2(address(this));
+}
+
+1
+---------------------------------
+50.sol
+function FUN1() payable public {
+FUN2(VAR1);
+}
+function FUN1() payable public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+51.sol
+function FUN1(){
+FUN2(VAR1);
+}
+function FUN1(){
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+52.sol
+function FUN1()
+{
+FUN2(VAR1);
+}
+function FUN1()
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+53.sol
+function FUN1(uint256 VAR1) internal {
+FUN2(sender);
+}
+function FUN1(uint256 VAR1) internal {
+FUN2(sender);
+}
+
+1
+---------------------------------
+54.sol
+function FUN1 () payable external
+{
+FUN2(VAR1);
+}
+function FUN1 () payable external
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+55.sol
+function FUN1() internal {
+FUN2(VAR1);
+}
+function FUN1() internal {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+56.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+57.sol
+function FUN1() internal {
+FUN2(VAR1);
+}
+function FUN1() internal {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+58.sol
+function FUN1() public
+{
+FUN2(msg.sender);
+}
+function FUN1() public
+{
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+59.sol
+function FUN1() public {
+        FUN2(msg.sender);
+    }
+function FUN1() public {
+        FUN2(msg.sender);
+    }
+
+1
+---------------------------------
+6.sol
+function FUN1() FUN2() external {
+FUN3(VAR1);
+}
+function FUN1() FUN2() external {
+FUN3(VAR1);
+}
+
+1
+---------------------------------
+60.sol
+function FUN1()
+{
+FUN2(msg.sender);
+}
+function FUN1()
+{
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+61.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+62.sol
+function FUN1() {
+FUN2(msg.sender);
+}
+function FUN1() {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+63.sol
+function FUN1() internal {
+FUN2(VAR1);
+}
+function FUN1() internal {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+64.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+65.sol
+function FUN1()
+{
+FUN2(VAR1);
+}
+function FUN1()
+{
+FUN2(0);
+}
+function FUN1()
+{
+FUN2(VAR1);
+}
+function FUN1()
+{
+FUN2(0);
+}
+
+1
+---------------------------------
+66.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+67.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+68.sol
+function FUN1() VAR1
+{
+FUN2(VAR2);
+}
+function FUN1() VAR1
+{
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+69.sol
+function FUN1() ismain payable{
+FUN2(VAR1);
+}
+function FUN1() ismain payable{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+7.sol
+function FUN1(address VAR1, uint256 VAR2) public {
+FUN2(VAR3);
+if ((VAR2 != 0) && (VAR4[msg.sender][VAR1] != 0)) revert();
+VAR4[msg.sender][VAR1] = VAR2;
+FUN3(msg.sender, VAR1, VAR2);
+}
+function FUN1(address VAR1, uint256 VAR2) public {
+FUN2(VAR3);
+if ((VAR2 != 0) && (VAR4[msg.sender][VAR1] != 0)) revert();
+VAR4[msg.sender][VAR1] = VAR2;
+FUN3(msg.sender, VAR1, VAR2);
+}
+
+1
+---------------------------------
+70.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+71.sol
+function FUN1(address VAR1) {
+FUN2(VAR1);
+}
+function FUN1(address VAR1) {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+72.sol
+function FUN1(address VAR1) external {
+FUN2(VAR1);
+}
+function FUN1(address VAR1) external {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+73.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+74.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+75.sol
+function FUN1 () {
+FUN2(VAR1);
+}
+function FUN1 () {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+76.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+77.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+78.sol
+function FUN1() {
+FUN2(VAR1);
+}
+function FUN1() {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+79.sol
+function FUN1()
+{ FUN2(msg.sender); }
+}
+function FUN1()
+{ FUN2(msg.sender); }
+}
+
+1
+---------------------------------
+8.sol
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+function FUN1() public VAR1 {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+80.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+81.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+82.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+9.sol
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+function FUN1() VAR1 {
+FUN2(VAR2);
+}
+
+1
+---------------------------------
+90.sol
+function FUN1() public VAR1 {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
+91.sol
+function FUN1(address VAR1) public{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+92.sol
+function FUN1() public{
+FUN2(address(VAR1));
+}
+
+1
+---------------------------------
+93.sol
+function FUN1()
+{
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+94.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+95.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+96.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+97.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+98.sol
+function FUN1() public {
+FUN2(VAR1);
+}
+
+1
+---------------------------------
+99.sol
+function FUN1() public {
+FUN2(msg.sender);
+}
+
+1
+---------------------------------
